@@ -52,7 +52,7 @@ const Navbar = () => {
                         <Link 
                             className="flex items-center gap-1 font-medium text-textDark 
                             hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                            href="#home"
+                            href="#home" passHref
                             onClick={handleScroll}
                         >
                         <motion.li 
@@ -64,7 +64,7 @@ const Navbar = () => {
                         </Link>
                         <Link className="flex items-center gap-1 font-medium text-textDark 
                             hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                            href="#about"
+                            href="#about" passHref
                             onClick={handleScroll}
                         >
                         <span className="text-textTeal"></span>
@@ -77,7 +77,7 @@ const Navbar = () => {
                         </Link>
                         <Link className="flex items-center gap-1 font-medium text-textDark 
                             hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                            href="#experience"
+                            href="#experience" passHref
                             onClick={handleScroll}
                         >
                         <span className="text-textTeal"></span>
@@ -90,7 +90,7 @@ const Navbar = () => {
                         </Link>
                         <Link className="flex items-center gap-1 font-medium text-textDark 
                             hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                            href="#projects"
+                            href="#projects" passHref
                             onClick={handleScroll}
                         >
                         <span className="text-textTeal"></span>
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </Link>
                         <Link className="flex items-center gap-1 font-medium text-textDark 
                             hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                            href="#contact"
+                            href="#contact" passHref
                             onClick={handleScroll}
                         >
                         <span className="text-textTeal"></span>
@@ -164,7 +164,7 @@ const Navbar = () => {
                                     <Link 
                                         className="flex items-center gap-1 font-medium text-textDark 
                                         hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                                        href="#home"
+                                        href="#home" passHref
                                         onClick={handleScroll}
                                     >
                                     <motion.li 
@@ -176,7 +176,7 @@ const Navbar = () => {
                                     </Link>
                                     <Link className="flex items-center gap-1 font-medium text-textDark 
                                         hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                                        href="#about"
+                                        href="#about" passHref
                                         onClick={handleScroll}
                                     >
                                     <span className="text-textTeal"></span>
@@ -189,7 +189,7 @@ const Navbar = () => {
                                     </Link>
                                     <Link className="flex items-center gap-1 font-medium text-textDark 
                                         hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                                        href="#experience"
+                                        href="#experience" passHref
                                         onClick={handleScroll}
                                     >
                                     <span className="text-textTeal"></span>
@@ -202,7 +202,7 @@ const Navbar = () => {
                                     </Link>
                                     <Link className="flex items-center gap-1 font-medium text-textDark 
                                         hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                                        href="#projects"
+                                        href="#projects" passHref
                                         onClick={handleScroll}
                                     >
                                     <span className="text-textTeal"></span>
@@ -215,7 +215,7 @@ const Navbar = () => {
                                     </Link>
                                     <Link className="flex items-center gap-1 font-medium text-textDark 
                                         hover:text-textTeal cursor-pointer duration-300 nav-link" 
-                                        href="#contact"
+                                        href="#contact" passHref
                                         onClick={handleScroll}
                                     >
                                     <span className="text-textTeal"></span>
@@ -228,7 +228,7 @@ const Navbar = () => {
                                     </Link>
                                 </ul>
                                 {/* Resume Button */}
-                                <a href="/assets/EricRamsey_Resume.pdf" target="_blank">
+                                <a href="/assets/EricRamsey_Resume.pdf" target="_blank" rel='opener noreferrer'>
                                     <span className="text-textTeal"></span>
                                     <motion.button
                                     initial={{ y: -10, opacity: 0 }} 
@@ -245,7 +245,7 @@ const Navbar = () => {
                                         initial={{ y: 20, opacity: 0 }} 
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
-                                        href="https://github.com/ericmramsey" target="_blank">
+                                        href="https://github.com/ericmramsey" target="_blank" rel='opener noreferrer'>
                                         <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
                                                 items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                 hover:-translate-y-2 transition-all duration-300">
@@ -256,7 +256,7 @@ const Navbar = () => {
                                         initial={{ y: 20, opacity: 0 }} 
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
-                                        href="https://www.linkedin.com/in/ericramsey/" target="_blank">
+                                        href="https://www.linkedin.com/in/ericramsey/" target="_blank" rel='opener noreferrer'>
                                             <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
                                                     items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                     hover:-translate-y-2 transition-all duration-300">

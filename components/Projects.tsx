@@ -105,6 +105,7 @@ const Projects = () => {
                                 className="hover:text-textTeal duration-300"
                                 href="https://github.com/ericmramsey/predictive-analytics"
                                 target="_blank"
+                                rel='opener noreferrer'
                                 >
                                 <AiFillGithub />
                             </a>
@@ -210,6 +211,7 @@ const Projects = () => {
                                     className="hover:text-textTeal duration-300"
                                     href="https://github.com/ericmramsey/predictive-analytics"
                                     target="_blank"
+                                    rel='opener noreferrer'
                                     >
                                     <AiFillGithub />
                                 </a>
@@ -303,6 +305,7 @@ const Projects = () => {
                                 className="hover:text-textTeal duration-300"
                                 href="https://github.com/ericmramsey"
                                 target="_blank"
+                                rel='opener noreferrer'
                                 >
                                 <AiFillGithub />
                             </a>

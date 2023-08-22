@@ -14,7 +14,7 @@ const LeftSide = () => {
     <div className="w-full h-full flex flex-col items-center justify-end gap-4
     text-textLight">
       <div className="flex flex-col gap-4">
-        <a href="https://github.com/ericmramsey" target="_blank">
+        <a href="https://github.com/ericmramsey" target="_blank" rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
@@ -22,7 +22,7 @@ const LeftSide = () => {
             <AiFillGithub />
           </span>
         </a>
-        <a href="https://www.linkedin.com/in/ericramsey/" target="_blank">
+        <a href="https://www.linkedin.com/in/ericramsey/" target="_blank" rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
@@ -66,8 +66,7 @@ const LeftSide = () => {
                               items-center">
                             <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
                                     height="525" 
-                                    width="100%" 
-                                    frame-boarder="0"
+                                    width="100%"
                                     loading="lazy"
                                     scrolling="yes"
                                     sandbox="allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
