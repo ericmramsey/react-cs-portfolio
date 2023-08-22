@@ -26,6 +26,7 @@ const Certifications = () => {
                 </span>
                 <a href="https://courses.edx.org/certificates/85092d1e99f44491b3f330a56ddbadef"
                     target="_blank"
+                    rel='opener noreferrer'
                     className=""
                 >
                     <span className=" hover:text-textTeal cursor-pointer duration-300 nav-link">

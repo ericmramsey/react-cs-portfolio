@@ -11,7 +11,7 @@ interface Props {
 
 const ArchiveCard = ({ title, descript, listItem, link }: Props) => {
   return (
-    <a href={ link } target="_blank">
+    <a href={ link } target="_blank" rel='opener noreferrer'>
         <div className="w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col 
         justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
             <div className="flex justify-between items-center">
