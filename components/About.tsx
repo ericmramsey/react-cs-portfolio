@@ -67,10 +67,12 @@ const About = () => {
                             </div>
                     </div>
                 </div>
+                {/* profileImg teal boarder element
                 <div className="hidden lg1:inline-flex w-full h-full border-2 border-textTeal 
                     rounded-md top-0 left-0 group-hover:-translate-x-3 group-hover:-translate-y-6 
                     transition-transform duration-300">
                 </div>
+                 */}
             </div>
         </div>
         {/* skills grid */}
