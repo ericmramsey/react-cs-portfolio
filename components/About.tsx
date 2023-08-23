@@ -39,16 +39,15 @@ const About = () => {
                     technology facilities. When supporting the scientists and engineers at these facilities,
                     I was introduced to <span className="text-textTeal">Artificial Intelligence</span>, 
                     <span className="text-textTeal"> Data Science</span>, and 
-                    <span className="text-textTeal"> Software Engineering</span>. This immidietly 
-                    sparked my intrest in the field, and I quickly started to learn more about programming 
-                    fundamentals in Python by researching and using online resources.
+                    <span className="text-textTeal"> Software Engineering</span>. I started to learn more about programming 
+                    fundamentals in Python by researching online.
                 </p>
                 <p>
                     I'm currently studying <span className="text-textTeal">Computer Science </span> at 
                     <span className="text-textTeal"> Louisiana State University - Alexandrea</span>,
                     and will be graduating Spring 2024. While completing my CS degree, I've gained professional 
                     experience and continue to look for opportunities to improve my skillset or learn 
-                    something new. I did this by seeking Co-Op and internship opportunities in the industry while 
+                    something new. I did this by seeking Co-Op and internship opportunities in the industry and 
                     building projects of my own.
                 </p>
                 <p>
