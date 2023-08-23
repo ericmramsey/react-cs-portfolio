@@ -120,7 +120,7 @@ const Projects = () => {
                 <div className="flex gap-8 font-bodyFont md:text-base p-2 md:p-6 rounded-md -my-10 xl:-mr-16">
                     <a 
                         className="hover:text-textTeal duration-300 text-2xl"
-                        href="https://github.com/ericmramsey/predictive-analytics"
+                        href="https://github.com/ericmramsey/react-cs-portfolio"
                         target="_blank"
                         rel='opener noreferrer'
                         >
