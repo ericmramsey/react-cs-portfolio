@@ -126,7 +126,7 @@ const Projects = () => {
                         >
                         <AiFillGithub />
                     </a>
-                    <a onClick={() => setShowProjectModal(true)} className="hover:text-textTeal duration-300 text-2xl">
+                    <a onClick={() => setShowProject2Modal(true)} className="hover:text-textTeal duration-300 text-2xl">
                         <RxOpenInNewWindow />
                     </a>
                 </div>
