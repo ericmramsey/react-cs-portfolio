@@ -6,9 +6,9 @@ import Project2Sum from './Project2Nav/Project2Sum';
 import Project2Improve from './Project2Nav/Project2Improve';
 
 const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    /* const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
-    };
+    };*/
     const [project2Sum, setProject2Sum] = useState(true);
     const [project2Improve, setProject2Improve] = useState(false);
 
@@ -28,14 +28,13 @@ const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
     if(!visible) {
         return null;
     };
-    
   return (
     <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
         id="container"
-        onClick={handleOnClose}
+        // onClick={handleOnClose}
         className="fixed inset-0 p-4 z-20 
             bg-opacity-30 backdrop-blur-lg flex justify-center items-center"
     >
