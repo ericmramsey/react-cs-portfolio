@@ -6,10 +6,6 @@ import Project2Sum from './Project2Nav/Project2Sum';
 import Project2Improve from './Project2Nav/Project2Improve';
 
 const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    
-    if(!visible) { 
-        return null;
-    };
     /*
     const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
@@ -29,6 +25,9 @@ const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
         setProject2Sum(false);
         setProject2Improve(true);
 
+    };
+    if(!visible) { 
+        return null;
     };
 
   return (
