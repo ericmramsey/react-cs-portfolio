@@ -18,8 +18,8 @@ const ParseDataFile = () => {
             {/* parse_data.html embed code */}
            <iframe src="https://ericmramsey.github.io/parse_data.html"
                     className=""
-                    height={"580"}
-                    width={"1300"}
+                    height={"530"}
+                    width={"1000"}
            ></iframe>
         </p>
     </motion.div>

@@ -38,7 +38,9 @@ const LeftSide = () => {
             <SiMinutemailer />
           </span>
         </a>
-        <a onClick={() => setShowMusic(true)}>
+        <a href="https://music.apple.com/us/playlist/code/pl.u-V9D7modIkX6DX" 
+          target="_blank" 
+          rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
@@ -46,9 +48,11 @@ const LeftSide = () => {
             <SiMusicbrainz />
           </span>
         </a>
+        
         {/* Apple Music Playlist Modal */}
         {showMusic && (
             <div>
+              {/* Apple Music Playlist Modal
                 <div className="absolute top-0 left-0 w-screen h-screen bg-black bg-opacity-50 
                     flex flex-col justify-center items-center font-titleFont">
                     <div className="bg-bodyColor py-3 px-3 mx-auto rounded-lg md:w-7/12 w-10/12 max-w-screen-md 
@@ -77,6 +81,7 @@ const LeftSide = () => {
                         </div>
                     </div>
                 </div>
+                */}
             </div>
           )
         }

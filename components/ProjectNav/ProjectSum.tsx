@@ -13,7 +13,7 @@ const ProjectSum = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.1 }}
         >
-            <div className=" lg1:w-full lg1:py-32 flex flex-col gap-8 text-base">
+            <div className="lg1:w-full lg1:py-32 flex flex-col gap-8 text-base">
                 <div>
                     <ul>
                         <li className="flex gap-2 text-textLight mb-6 px-2 mt-0">

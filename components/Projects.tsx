@@ -8,57 +8,15 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 import { MdOutlineClose } from "react-icons/md";
 import Button from './Button';
 import { motion } from "framer-motion";
-import ProjectDemo from './ProjectNav/ProjectDemo';
-import ProjectSum from './ProjectNav/ProjectSum';
-import ProjectImprove from './ProjectNav/ProjectImprove';
-import Project2Sum from './Project2Nav/Project2Sum';
-import Project2Improve from './Project2Nav/Project2Improve';
+import ProjectModal from './ProjectModal';
+import Project2Modal from './Project2Modal';
 
 const Projects = () => {
 
-    const [showProject, setShowProject] = useState(false);
-    const [projectDemo, setProjectDemo] = useState(false);
-    const [projectSum, setProjectSum] = useState(true);
-    const [projectImprove, setProjectImprove] = useState(false);
+    const [showProjectModal, setShowProjectModal] = useState(false);
+    const [showProject2Modal, setShowProject2Modal] = useState(false);
 
-    const [showProject2, setShowProject2] = useState(false);
-    const [project2Sum, setProject2Sum] = useState(true);
-    const [project2Improve, setProject2Improve] = useState(false);
-
-    const handleProjectDemo = () => {
-
-        setProjectDemo(true);
-        setProjectSum(false);
-        setProjectImprove(false);
-
-    };
-    const handleProjectSum = () => {
-
-        setProjectDemo(false);
-        setProjectSum(true);
-        setProjectImprove(false);
-
-    };
-    const handleProjectImprove = () => {
-
-        setProjectDemo(false);
-        setProjectSum(false);
-        setProjectImprove(true);
-
-    };
-    const handleProject2Sum = () => {
-        
-        setProject2Sum(true);
-        setProject2Improve(false);
-
-    };
-    const handleProject2Improve = () => {
-
-        setProject2Sum(false);
-        setProject2Improve(true);
-
-    }
-
+    const handleOnClose = () => setShowProjectModal(false);
 
    return (
     <section id="projects" 
@@ -79,7 +37,7 @@ const Projects = () => {
                             />
                         </div>
                     </a>
-                    <div className="w-full xl:w-1/2 flex flex-col gap-6 lg1:justify-between items-end text-right xl:-ml-16 z-10">
+                    <div className="w-full xl:w-1/2 flex flex-col gap-6 lg1:justify-between items-end text-left xl:-ml-5 z-10">
                         <p className="font-titleFont text-textTeal text-sm tracking-wide">
                             Project #1
                         </p>
@@ -91,8 +49,8 @@ const Projects = () => {
                                 <span className="text-textTeal"> TypeScript</span>, 
                                 <span className="text-textTeal"> Web Scrapping</span>, <span className="text-textTeal"> Machine Learning</span>, and 
                                 <span className="text-textTeal"> Data Structures </span> to successfully obtain creidble data, clean the obtained data, 
-                                and test my model's accuracy. This is the first version of this model. I'll also be implimenting a UI and 
-                                additional professional sports to project final outcomes.
+                                and test my model's accuracy. This is the first version of this model. I'll also be implimenting a UI, improve the model's 
+                                prediction accuracy and add other professional sports to predict final outcomes for.
                             </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 
                         justify-between text-textDark ">
@@ -100,69 +58,20 @@ const Projects = () => {
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">JupyterLab</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">TypeScript</li>
                         </ul>
-                        <div className="text-2xl flex gap-4">
-                            <a 
-                                className="hover:text-textTeal duration-300"
-                                href="https://github.com/ericmramsey/predictive-analytics"
-                                target="_blank"
-                                rel='opener noreferrer'
-                                >
-                                <AiFillGithub />
-                            </a>
-                            <a onClick={() => setShowProject(true)} className="hover:text-textTeal duration-300">
-                                <Button />
-                            </a>
-                        </div>
-                        {/* Show Project 1 Modal */}
-                        {showProject && (
-                                <div className="fixed inset-0 justify-center items-center w-screen h-screen bg-black/50 
-                                    flex flex-col font-titleFont"
-                                >
-                                    <div className="w-11/12 max-w-screen-md h-screen bg-bodyColor
-                                                    overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/50
-                                                    flex flex-col mt-32 items-end"
-                                    >
-                                        <h3 className="w-full shadow-navbarShadow bg-bodyColor flex flex-col mx-auto">
-                                            <span onClick={() => setShowProject(false)} 
-                                                  className="text-2xl text-textTeal cursor-pointer hover:text-black m-2">
-                                                   <MdOutlineClose />
-                                            </span>
-                                            <span className="text-2xl font-bold mx-8">
-                                                NBA Outcome Predicitons
-                                            </span><span className="text-textTeal text-2xl mx-8 mb-3"> 
-                                                Machine Learning 
-                                            </span>
-                                        </h3>
-                                        <div className="w-full flex flex-col md:flex-row gap-8 shadow-md">
-                                            <ul className="md:w-36 mt-32 mx-12 flex flex-col">
-                                                <li 
-                                                onClick={ handleProjectSum }
-                                                className={`${projectSum ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                                                    border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                                                    Overview
-                                                </li>
-                                                <li 
-                                                onClick={ handleProjectDemo }
-                                                className={`${projectDemo ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                                                    border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                                                    Project Files
-                                                </li>
-                                                <li 
-                                                onClick={ handleProjectImprove }
-                                                className={`${projectImprove ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                                                    border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                                                    Improvements
-                                                </li>
-                                            </ul>
-                                            {projectSum && <ProjectSum />}
-                                            {projectDemo && <ProjectDemo />}
-                                            {projectImprove && <ProjectImprove />}
-                                        </div>
-                                    </div>
-                                </div>
-                              )
-                            }
                     </div>
+                </div>
+                <div className="flex gap-8 font-bodyFont md:text-base p-2 md:p-6 rounded-md -my-10 xl:-mr-16">
+                    <a 
+                        className="hover:text-textTeal duration-300 text-2xl"
+                        href="https://github.com/ericmramsey/predictive-analytics"
+                        target="_blank"
+                        rel='opener noreferrer'
+                        >
+                        <AiFillGithub />
+                    </a>
+                    <a onClick={() => setShowProjectModal(true)} className="hover:text-textTeal duration-300 text-2xl">
+                        <RxOpenInNewWindow />
+                    </a>
                 </div>
             </div>
             {/* Project 2 */}
@@ -183,14 +92,15 @@ const Projects = () => {
                             Project #2
                         </div>
                         <h3 className="flex flex-col text-2xl font-bold">CS Portfolio Website</h3>
-                        <p className="bg-bodyColor text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
+                        <p className="bg-bodyColor text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
                         I created this website using
-                        <span className="text-textTeal"> React </span>,
-                        <span className="text-textTeal"> Next.js </span>, 
-                        <span className="text-textTeal"> JavaScript </span>,
-                        <span className="text-textTeal"> Tailwind CSS </span>, 
-                        <span className="text-textTeal"> HTML </span>, and
-                        <span className="text-textTeal"> Vercel</span>. I created this website to host projects focused in 
+                        <span className="text-textTeal"> React</span>,
+                        <span className="text-textTeal"> Next.js</span>, 
+                        <span className="text-textTeal"> JavaScript</span>,
+                        <span className="text-textTeal"> Tailwind CSS</span>, 
+                        <span className="text-textTeal"> HTML</span>, and
+                        <span className="text-textTeal"> Vercel</span>. 
+                        I created this website to host projects focused in 
                         Machine Learning, Data, and Software Engineering. In addition to having a platform to host my work and 
                         skillset on, I wanted to gain knowledge and experience using these tools to have the ability to create 
                         applications integrated with my other work.
@@ -205,67 +115,23 @@ const Projects = () => {
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">CSS</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">HTML</li>
                         </ul>
-                        <div className="text-2xl flex gap-4">
-                            <div className="text-2xl flex gap-4">
-                                <a 
-                                    className="hover:text-textTeal duration-300"
-                                    href="https://github.com/ericmramsey/predictive-analytics"
-                                    target="_blank"
-                                    rel='opener noreferrer'
-                                    >
-                                    <AiFillGithub />
-                                </a>
-                                <a onClick={() => setShowProject2(true)} className="hover:text-textTeal duration-300">
-                                    <Button />
-                                </a>
-                            </div>
-                            {/* Show Project 2 Modal */}
-                            {showProject2 && (
-                                        <div className="fixed inset-0 justify-center items-center w-screen h-screen bg-black/50 
-                                            flex flex-col font-titleFont"
-                                        >
-                                            <div className="w-11/12 max-w-screen-md h-screen bg-bodyColor
-                                                            overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/50
-                                                            flex flex-col mt-32 items-end"
-                                            >
-                                                <h3 className="w-full shadow-navbarShadow bg-bodyColor flex flex-col mx-auto">
-                                                    <span onClick={() => setShowProject2(false)} 
-                                                            className="text-2xl text-textTeal cursor-pointer hover:text-black m-2">
-                                                            <MdOutlineClose />
-                                                    </span>
-                                                    <span className="text-2xl font-bold mx-8">
-                                                        CS Portfolio Website
-                                                    </span><span className="text-textTeal text-2xl mx-8 mb-3"> 
-                                                        React Application
-                                                    </span>
-                                                </h3>
-                                                <div className="w-full flex flex-col md:flex-row gap-8 shadow-md">
-                                                    <ul className="md:w-36 mt-32 mx-12 flex flex-col">
-                                                        <li 
-                                                        onClick={ handleProject2Sum }
-                                                        className={`${project2Sum ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                                                            border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                                                            Overview
-                                                        </li>
-                                                        <li 
-                                                        onClick={ handleProject2Improve }
-                                                        className={`${project2Improve ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                                                            border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                                                            Improvements
-                                                        </li>
-                                                    </ul>
-                                                    {project2Sum && <Project2Sum />}
-                                                    {project2Improve && <Project2Improve />}
-                                                </div>
-                                            </div>
-                                        </div>
-                                  )
-                                }
-                        </div>
                     </div>
                 </div>
+                <div className="flex gap-8 font-bodyFont md:text-base p-2 md:p-6 rounded-md -my-10 xl:-mr-16">
+                    <a 
+                        className="hover:text-textTeal duration-300 text-2xl"
+                        href="https://github.com/ericmramsey/predictive-analytics"
+                        target="_blank"
+                        rel='opener noreferrer'
+                        >
+                        <AiFillGithub />
+                    </a>
+                    <a onClick={() => setShowProjectModal(true)} className="hover:text-textTeal duration-300 text-2xl">
+                        <RxOpenInNewWindow />
+                    </a>
+                </div>
             </div>
-            {/* Project 3
+            {/* Project 3 
             <div className="w-full flex flex-col items-center justify-center gap-28 mt-52 mb-20">
                 <div className="flex flex-col xl:flex-row gap-6">
                     <a 
@@ -319,8 +185,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </div>*/}
+            </div>
+            */}
         </div>
+        <ProjectModal onClose={handleOnClose} visible={showProjectModal} />
+        <Project2Modal onClose={handleOnClose} visible={showProjectModal}  />
     </section>
   )
 }

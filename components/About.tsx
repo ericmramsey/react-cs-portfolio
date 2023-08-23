@@ -35,7 +35,7 @@ const About = () => {
                 <p>
                     Before choosing to pursue this career path, I worked in the various audio-visual 
                     industries utilizing technology in professions like music recording engineering,
-                    media and live television broadcasting, and supporting corporations science and 
+                    media and live television broadcasting, and supporting science and 
                     technology facilities. When supporting the scientists and engineers at these facilities,
                     I was introduced to <span className="text-textTeal">Artificial Intelligence</span>, 
                     <span className="text-textTeal"> Data Science</span>, and 
@@ -46,9 +46,10 @@ const About = () => {
                 <p>
                     I'm currently studying <span className="text-textTeal">Computer Science </span> at 
                     <span className="text-textTeal"> Louisiana State University - Alexandrea</span>,
-                    and will be graduating Spring 2024. While completing my CS degree, I've continued to 
-                    gain professional experience and look for opportunities to improve my skillset or learn 
-                    something new. I did this by seeking Co-Op and internship opportunities in the industry.
+                    and will be graduating Spring 2024. While completing my CS degree, I've gained professional 
+                    experience and continue to look for opportunities to improve my skillset or learn 
+                    something new. I did this by seeking Co-Op and internship opportunities in the industry while 
+                    building projects of my own.
                 </p>
                 <p>
                     Here are some of the technologies that I've worked with or have experience using:

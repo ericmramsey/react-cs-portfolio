@@ -31,12 +31,8 @@ const ProjectDemo = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
-        className="w-full"
         >
-            <h3 className="flex py-5 font-medium text-2lg font-titleFonts tracking tracking-wide">
-                
-            </h3>
-            <div className="w-full inline-block md:flex-row mx-auto px-10 mb-16">
+            <div className="inline-block md:flex-row px-2 gap-2 mt-0 mb-16">
                 <ul className="md:w-36 flex mb-2">
                     <li 
                     onClick={ handleGetDataFile }

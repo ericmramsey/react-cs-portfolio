@@ -13,7 +13,7 @@ const Project2Improve = () => {
         <div className=" lg1:w-full lg1:py-32 flex flex-col gap-8 text-base">
                 <div>
                     <ul>
-                        <li className="flex gap-2 text-textLight mb-7 mt-0">
+                        <li className="flex gap-2 text-textLight mb-6 px-2 mt-0">
                             <span className="text-textTeal mt-1">
                                 <AiFillThunderbolt />
                             </span>
