@@ -34,7 +34,7 @@ const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
         id="container"
-        // onClick={handleOnClose}
+        onClick={handleOnClose}
         className="fixed inset-0 p-4 z-20 
             bg-opacity-30 backdrop-blur-lg flex justify-center items-center"
     >
