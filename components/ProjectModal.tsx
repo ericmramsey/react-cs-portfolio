@@ -11,8 +11,10 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
         
     };
     
-    if(!visible) return null;
-
+    if(!visible.getCur) {
+        return null;
+    };
+    
     const [projectDemo, setProjectDemo] = useState(false);
     const [projectSum, setProjectSum] = useState(true);
     const [projectImprove, setProjectImprove] = useState(false);

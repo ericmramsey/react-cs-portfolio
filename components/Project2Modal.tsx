@@ -9,7 +9,11 @@ const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
     const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
     };
-    if(!visible) return null;
+    
+    if(!visible) {
+        return null;
+    };
+
     const [project2Sum, setProject2Sum] = useState(true);
     const [project2Improve, setProject2Improve] = useState(false);
 
