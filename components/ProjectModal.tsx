@@ -14,18 +14,11 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
     if(!visible.getCur) {
         return null;
     };
-    
-    const [projectDemo, setProjectDemo] = useState(false);
+
     const [projectSum, setProjectSum] = useState(true);
     const [projectImprove, setProjectImprove] = useState(false);
-
-    const handleProjectDemo = () => {
-
-        setProjectDemo(true);
-        setProjectSum(false);
-        setProjectImprove(false);
-
-    };
+    const [projectDemo, setProjectDemo] = useState(false);
+    
     const handleProjectSum = () => {
 
         setProjectDemo(false);
@@ -38,6 +31,13 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
         setProjectDemo(false);
         setProjectSum(false);
         setProjectImprove(true);
+
+    };
+    const handleProjectDemo = () => {
+
+        setProjectDemo(true);
+        setProjectSum(false);
+        setProjectImprove(false);
 
     };
 
