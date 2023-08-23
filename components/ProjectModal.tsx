@@ -7,9 +7,9 @@ import ProjectSum from './ProjectNav/ProjectSum';
 import ProjectImprove from './ProjectNav/ProjectImprove';
 
 const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    /*const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
-    };*/
+    }
 
     const [projectSum, setProjectSum] = useState(true);
     const [projectImprove, setProjectImprove] = useState(false);
