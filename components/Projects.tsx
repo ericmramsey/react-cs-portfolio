@@ -189,7 +189,7 @@ const Projects = () => {
             */}
         </div>
         <ProjectModal onClose={handleOnClose} visible={showProjectModal} />
-        <Project2Modal onClose={handleOnClose} visible={showProjectModal}  />
+        <Project2Modal onClose={handleOnClose} visible={showProject2Modal}  />
     </section>
   )
 }
