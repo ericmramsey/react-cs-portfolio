@@ -17,6 +17,7 @@ const Projects = () => {
     const [showProject2Modal, setShowProject2Modal] = useState(false);
 
     const handleOnClose = () => setShowProjectModal(false);
+    const handleOnClose2 = () => setShowProject2Modal(false);
 
    return (
     <section id="projects" 
@@ -189,7 +190,7 @@ const Projects = () => {
             */}
         </div>
         <ProjectModal onClose={handleOnClose} visible={showProjectModal} />
-        <Project2Modal onClose={handleOnClose} visible={showProject2Modal}  />
+        <Project2Modal onClose={handleOnClose2} visible={showProject2Modal}  />
     </section>
   )
 }

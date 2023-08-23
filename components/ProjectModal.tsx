@@ -7,36 +7,34 @@ import ProjectSum from './ProjectNav/ProjectSum';
 import ProjectImprove from './ProjectNav/ProjectImprove';
 
 const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    if(!visible.getCur) {
-        return null;
+
+    if(!visible) { 
+        return null; 
     };
-    
+    /*
     const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
-    }
-
+    };
+    */
     const [projectSum, setProjectSum] = useState(true);
-    const [projectImprove, setProjectImprove] = useState(false);
     const [projectDemo, setProjectDemo] = useState(false);
+    const [projectImprove, setProjectImprove] = useState(false);
     
     const handleProjectSum = () => {
-
-        setProjectDemo(false);
         setProjectSum(true);
+        setProjectDemo(false);
         setProjectImprove(false);
 
     };
     const handleProjectImprove = () => {
-
+        setProjectSum(true);
         setProjectDemo(false);
-        setProjectSum(false);
         setProjectImprove(true);
 
     };
     const handleProjectDemo = () => {
-
+        setProjectSum(true);
         setProjectDemo(true);
-        setProjectSum(false);
         setProjectImprove(false);
 
     };
@@ -47,7 +45,7 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
         id="container"
-        onClick={handleOnClose}
+        // onClick={handleOnClose}
         className="fixed inset-0 p-4 z-20 
             bg-opacity-30 backdrop-blur-lg flex justify-center items-center"
     >
@@ -98,4 +96,4 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
   )
 }
 
-export default ProjectModal;
+export default ProjectModal
