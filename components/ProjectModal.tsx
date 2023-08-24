@@ -23,14 +23,14 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
 
     };
     const handleProjectDemo = () => {
-        setProjectSum(true);
+        setProjectSum(false);
         setProjectDemo(true);
         setProjectImprove(false);
 
     };
 
     const handleProjectImprove = () => {
-        setProjectSum(true);
+        setProjectSum(false);
         setProjectDemo(false);
         setProjectImprove(true);
 
