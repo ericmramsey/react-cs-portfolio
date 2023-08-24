@@ -7,17 +7,15 @@ const Banner = () => {
   return (
     <section 
         id="home" 
-        className="max-w-contentContainer mx-auto py-32 md1:py-10 flex flex-col
+        className="max-w-contentContainer mx-auto py-36 md1:py-10 flex flex-col
         gap-4 lg1:gap-8 md1:px-10 x1:px-4 mb-44 mt-0 justify-center items-center"
     >
     <motion.h3 
         initial={{ y: 0, opacity: 0 }}
         animate={{ y: 0, opacity: 0 }}
         transition={{ duration:0.5, delay: 0.6 }}
-        className="text-lg font-titleFont tracking-wide text-textTeal">
-        <span className="opacity-0">
+        className="-mt-14 top-0 mb-14 text-lg font-titleFont tracking-wide text-textTeal">
             <SectionTitle title="Home" titleNum="0." />
-        </span>
     </motion.h3>
     <motion.h3 
         initial={{ y: 10, opacity: 0 }}
