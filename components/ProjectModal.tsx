@@ -53,13 +53,13 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
             overflow-x-hidden overflow-y-scroll border border-textDark scrollbar scrollbar-track-textDark/20 
             scrollbar-thumb-textDark/50"
         >
-            <button 
-                onClick={onClose}
-                className="text-2xl text-textLight cursor-pointer hover:text-textTeal m-2"
-            >
-                <MdOutlineClose />
-            </button>
-            <h3 className="w-full shadow-lg bg-bodyColor flex flex-col text-right mx-auto">
+            <h3 className="sticky top-0 z-20 w-full shadow-lg bg-bodyColor flex flex-col text-right mx-auto">
+                <button 
+                    onClick={onClose}
+                    className="text-2xl text-textLight cursor-pointer hover:text-textTeal m-2"
+                >
+                    <MdOutlineClose />
+                </button>
                 <span className="text-2xl font-bold mx-8">
                     NBA Outcome Predicitons
                 </span><span className="text-textTeal text-2xl mx-8 mb-3"> 

@@ -32,30 +32,32 @@ const ProjectDemo = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
         >
-            <div className="inline-block md:flex-row px-2 gap-2 mt-0 mb-16">
-                <ul className="md:w-36 flex mb-2">
-                    <li 
-                    onClick={ handleGetDataFile }
-                    className={`${getDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                        border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        get_data.ipynb
-                    </li>
-                    <li
-                    onClick={ handleParseDataFile } 
-                    className={`${parseDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                        border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        parse_data.ipynb
-                    </li>
-                    <li 
-                    onClick={ handlePredictataFile }
-                    className={`${predictDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                        border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        predict.ipynb
-                    </li>
-                </ul>
-                {getDataFile && <GetDataFile />}
-                {parseDataFile && <ParseDataFile />}
-                {predictDataFile && <PredictDataFile />}
+            <div className="lg1:w-full lg1:py-32 flex flex-col gap-8 text-base">
+                <div className="inline-block md:flex-row px-2 gap-2 mt-0 mb-16">
+                    <ul className="md:w-36 flex mb-2">
+                        <li 
+                        onClick={ handleGetDataFile }
+                        className={`${getDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                            border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                            get_data.ipynb
+                        </li>
+                        <li
+                        onClick={ handleParseDataFile } 
+                        className={`${parseDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                            border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                            parse_data.ipynb
+                        </li>
+                        <li 
+                        onClick={ handlePredictataFile }
+                        className={`${predictDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                            border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                            predict.ipynb
+                        </li>
+                    </ul>
+                    {getDataFile && <GetDataFile />}
+                    {parseDataFile && <ParseDataFile />}
+                    {predictDataFile && <PredictDataFile />}
+                </div>
             </div>
     </motion.div>
   )

@@ -10,18 +10,30 @@ const GetDataFile = () => {
         transition={{ delay: 0.1 }}
         className="w-full mb-6 mt-0"
       >
+        <div className="md1:w-screen md1:-mx-0 flex flex-col overflow-hidden sm:w-3/4 mx-auto">
+          <div className="max-w-contentContainer ">
+            <iframe
+              className="w-full font-extrabold"
+              src="https://ericmramsey.github.io/get_data.html"
+              height={"480"}
+              loading="eager"
+             // width={"1200"}
+            ></iframe>
+          </div>
+        </div>
+        { /* get_data.html embed code
         <h2 className="flex gap-1 font-medium text-2lg font-titleFont">
-            <span className="text-sm font-medium text-textDark">
-            </span>
+                <span className="text-sm font-medium text-textDark">
+                </span>
         </h2>
-        <p className=" bg-slate-500 p-2 h-fit w-fit font-extrabold">
-            {/* get_data.html embed code */}
+        <a className="p-2 h-fit w-fit font-extrabold">
            <iframe src="https://ericmramsey.github.io/get_data.html"
-                    className=""
-                    height={"530"}
-                    width={"1200"}
+                    className="absolute inset-0 w-full h-full"
+                    //height={"530"}
+                    //width={"1200"}
+                    allowFullScreen
            ></iframe>
-        </p>
+        </a> */ }
     </motion.div>
   )
 }

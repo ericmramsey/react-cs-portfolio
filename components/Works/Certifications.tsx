@@ -19,7 +19,7 @@ const Certifications = () => {
         <p className="text-sm mt-1 font-medium text-textDark">
             Here of some professional certifications that I've obtained since starting this career change.
         </p>
-        <ul className="mt-8 flex flex-col gap-8">
+        <ul className="mt-8 flex flex-col gap-8 sm:gap-7">
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
@@ -44,7 +44,7 @@ const Certifications = () => {
                         SQL Database Design & Development
                     </span>
                 </a>
-                <span className="text-textTeal mx-24"> Miles Technologies</span>
+                <span className="text-textTeal"> Miles Technologies</span>
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
@@ -55,7 +55,7 @@ const Certifications = () => {
                         Software Application & Web Development
                     </span>
                 </a>
-                <span className="text-textTeal mx-24"> Miles Technologies</span>
+                <span className="text-textTeal "> Miles Technologies</span>
             </li>
         </ul>
     </motion.div>

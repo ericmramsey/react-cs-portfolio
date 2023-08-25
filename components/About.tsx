@@ -76,7 +76,7 @@ const About = () => {
             </div>
         </div>
         {/* skills grid */}
-        <div className="grid grid-cols-4 mt-0">
+        <div className="grid grid-cols-4 mt-0 py-5">
             {/* programming languages col */}
             <ul className="max-w-[450px] text-lg font-bodyFont mt-2">
                 <h2 className="font-titleFont mb-5">
