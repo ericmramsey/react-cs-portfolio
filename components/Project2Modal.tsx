@@ -80,4 +80,4 @@ const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
   )
 }
 
-export default Project2Modal
+export default Project2Modal;

@@ -20,7 +20,7 @@ const ProjectDemo = () => {
         setParseDataFile(true);
         setPredictDataFile(false);
     }
-    const handlePredictataFile = () => {
+    const handlePredictDataFile = () => {
         setGetDataFile(false);
         setParseDataFile(false);
         setPredictDataFile(true);
@@ -48,7 +48,7 @@ const ProjectDemo = () => {
                             parse_data.ipynb
                         </li>
                         <li 
-                        onClick={ handlePredictataFile }
+                        onClick={ handlePredictDataFile }
                         className={`${predictDataFile ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
                             border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                             predict.ipynb

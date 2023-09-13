@@ -38,12 +38,8 @@ const Banner = () => {
     <motion.p className="text-base md:max-w-[710px] text-textDark font-medium flex flex-col"
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.8 }}>
-        {/* Bio Summary {" "}
-        I'm currently studying Computer Science at Louisiana State University - Alexandria, and
-        will be graduating Spring 2024. I have a strong foundation in Software Engineering and
-        Data Science, with an interest in building the skillset I've aquired through my educational
-        and professional experiences.{" "} */}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        >
         <a href="#about">
             <span className="text-textTeal inline-flex relative cursor-pointer h-7
             overflow-x-hidden group">

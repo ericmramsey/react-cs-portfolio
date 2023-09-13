@@ -15,8 +15,6 @@ const Archive = () => {
             </p>
         </div>
         <div className="relative grid grid-cols-1 md:grid-cols-3 x1:grid=cols-3 gap-6 mt-0 lg1:p-10">
-            {/* will be used for the next three project currently being worked on...
-
             <ArchiveCard 
                 title="Project 4"
                 descript=""
@@ -35,7 +33,6 @@ const Archive = () => {
                 listItem={["Python", "SQL", "React"]}
                 link=""
             />
-            */}
             <div className="absolute max-w-contentContainer inline-grid">
             </div>
             { showMore && (

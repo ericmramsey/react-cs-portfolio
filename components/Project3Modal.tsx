@@ -2,41 +2,32 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import { useState } from 'react';
-import ProjectDemo from './ProjectNav/ProjectDemo';
-import ProjectSum from './ProjectNav/ProjectSum';
-import ProjectImprove from './ProjectNav/ProjectImprove';
+import Project3Sum from './Project3Nav/Project3Sum';
+import Project3Improve from './Project3Nav/Project3Improve';
 
-const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
+const Project3Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
     /*
     const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         
     };
     */
-    const [projectSum, setProjectSum] = useState(true);
-    const [projectDemo, setProjectDemo] = useState(false);
-    const [projectImprove, setProjectImprove] = useState(false);
-    
-    const handleProjectSum = () => {
-        setProjectSum(true);
-        setProjectDemo(false);
-        setProjectImprove(false);
+    const [project3Sum, setProject3Sum] = useState(true);
+    const [project3Improve, setProject3Improve] = useState(false);
+
+    const handleProject3Sum = () => {
+        
+        setProject3Sum(true);
+        setProject3Improve(false);
 
     };
-    const handleProjectDemo = () => {
-        setProjectSum(false);
-        setProjectDemo(true);
-        setProjectImprove(false);
+    const handleProject3Improve = () => {
 
-    };
-
-    const handleProjectImprove = () => {
-        setProjectSum(false);
-        setProjectDemo(false);
-        setProjectImprove(true);
+        setProject3Sum(false);
+        setProject3Improve(true);
 
     };
     if(!visible) { 
-        return null; 
+        return null;
     };
 
   return (
@@ -44,8 +35,8 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
-        id="container"
-        // onClick={handleOnClose}
+        id="container2"
+        //onClick={handleOnClose}
         className="fixed inset-0 p-4 z-20 
             bg-opacity-30 backdrop-blur-lg flex justify-center items-center"
     >
@@ -61,7 +52,7 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
                     <MdOutlineClose />
                 </button>
                 <span className="text-2xl font-bold mx-8">
-                    NBA Outcome Predicitons
+                    NBA OKC Project
                 </span><span className="text-textTeal text-2xl mx-8 mb-3"> 
                     Machine Learning 
                 </span>
@@ -69,31 +60,26 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
             <div className="w-full flex flex-col md:flex-row gap-8 shadow-md">
                 <ul className="md:w-36 mt-32 mx-12 flex flex-col">
                     <li 
-                    onClick={ handleProjectSum }
-                    className={`${projectSum ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                    onClick={ handleProject3Sum }
+                    className={`${project3Sum ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
                         border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                         Overview
                     </li>
+                    {/* 
                     <li 
-                    onClick={ handleProjectDemo }
-                    className={`${projectDemo ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                        border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        Project Files
-                    </li>
-                    <li 
-                    onClick={ handleProjectImprove }
-                    className={`${projectImprove ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                    onClick={ handleProject3Improve }
+                    className={`${project3Improve ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
                         border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                         Improvements
-                    </li>
+                    </li> 
+                    */}
                 </ul>
-                {projectSum && <ProjectSum />}
-                {projectDemo && <ProjectDemo />}
-                {projectImprove && <ProjectImprove />}
+                {project3Sum && <Project3Sum />}
+                {/*{project3Improve && <Project3Improve />} */}
             </div>
         </div>
     </motion.div>
   )
 }
 
-export default ProjectModal;
+export default Project3Modal;

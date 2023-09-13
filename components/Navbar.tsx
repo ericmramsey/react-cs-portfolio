@@ -127,7 +127,7 @@ const Navbar = () => {
                         </motion.button>
                     </a>
                 </div>
-                {/* small menu for screens with lower deminsions */}
+                {/* small menu for screens with lower dimensions */}
                 <div 
                     onClick={() => setShowMenu(true)}
                     className="w-6 h-5 flex flex-col justify-between items-center md1:hidden 
