@@ -32,7 +32,7 @@ const Banner = () => {
         className="text-4xl lg1:text-6xl font-titleFont font-semibold flex flex-col justify-center items-center">
         Eric Ramsey.{" "}
         <span className="md:text-2xl text-textDark mt-2 lg1:mt-6 gap-10 sm:text-sm">
-            Artificial Intelligence | Data | Software Engineering
+            Software Engineering | Data | Artificial Intelligence
         </span> 
     </motion.h1>
     <motion.p className="text-base md:max-w-[710px] text-textDark font-medium flex flex-col"
