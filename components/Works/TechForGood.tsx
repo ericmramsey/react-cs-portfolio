@@ -24,29 +24,32 @@ const TechForGood = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Designed, developed and installed software solutions
+                Main project for this internship was Mission UpLink. This primary goal of this project was to assist in providing 
+                internet access to underdeveloped areas in countries that would benefit from this service. My team was tasked with 
+                developing an interactive map display that would assist in identifying deployed devices for team and potential investors.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Followed and learned more about the software development life- cycle, 
-                from concept, detailed design, scoping, planning, implementation, 
-                testing to documentation, and delivery.
+                Required knowledge of Python, Pandas, GeoPy for the task of creating an interactive virtual map representing deployed Mission UpLink 
+                devices on a global scale. For implementing the application to the company open source website, utilizing JavaScript, HTML, and CSS was used 
+                to accomplish tasks set by the team lead for testing and deployment versions.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Documented and demonstrated solutions by developing documentation, 
-                flowcharts, layouts, diagrams, charts, and clear, commented code.
+                Experienced the development and engineering lifecycle of the project and application, from conception, architecture definition, detailed design, 
+                scoping, planning, implementation, and testing. Also the integration and deployment testing of the application to be featured on the Tech For Good 
+                open source website.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Completed the authorization and setup of company phones both for new hires and current 
-                employees which required use and knowledge of company portal and protocols for data transfer.
+                Contributed to project development documentation, flowcharts, layouts, diagrams and clean, commented code. Utilized Git and Github for remote repository 
+                contributions and approvals of team lead requirements.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">

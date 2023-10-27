@@ -24,22 +24,23 @@ const BorgWarner = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Imaged PC's to required company formats and Encrypted data using BitLocker, 
-                as well as managing the transfer of employee data to requested/approved PC Upgrades.
+                Responsible for assisting database management and migration project of 
+                employee information to the new service the organization needed implemented. 
+                Utilized Python and SQL knowledged to efficiently contribute to the team and project success.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Experience using Active Directory, CommandLine and utilized other IT Remote Tools 
-                to successfully handle the responsibilities of a level one IT Technician.
+                Provided technical support, hardware and software integration solutions to meet the requirements 
+                of the departments being supported.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Remotely installed Engineering software applications on client devices while managing 
-                company license distribution accurately.
+                Utilized knowledge of Python, Command-Line, Data Structures, and Object Oriented Programming to 
+                provide efficient solutions for tasks such as transferring data to production machine upgrades.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
@@ -52,17 +53,23 @@ const BorgWarner = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Responsible for IT Helpdesk inbound calls and solving technical issues over the phone and 
-                in person in a fast paced environment.
+                Remotely installed engineering software applications to client machines and communicated with 
+                required departments regarding the management and distribution of software licenses to authorized users.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Managed PC issues and software issues on productions pc's effectively and in a timely manner 
-                to ensure production schedules stayed accurate.
+                Completed the configuration of new hire user profiles, company devices, and allocated required access to 
+                necessary department directories using Azure and Active Directory.
             </li>
-            
+            <li className="text-base flex gap-2 text-textDark">
+                <span className="text-textTeal mt-1">
+                    <AiFillThunderbolt />
+                </span>
+                Assisted in SQL Server RU Scorecard management to ensure machines and devices operating on the organizations 
+                network were compliant with security protocols and requirements.
+            </li>
         </ul>
     </motion.div>
   )
