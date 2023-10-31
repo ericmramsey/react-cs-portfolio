@@ -46,7 +46,7 @@ const Projects = () => {
                             Project #1
                         </p>
                         <h3 className="flex flex-col text-2xl font-bold">Predictive Analytics - NBA Outcomes<span className="text-textTeal text-xl"> Machine Learning</span></h3>
-                            <p className="bg-bodyColor text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
+                            <p className="bg-bodyColor text-textDark text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
                                 To create this machine learning model I utilized my knowledge of 
                                 <span className="text-textTeal"> Python</span>, 
                                 <span className="text-textTeal"> JupyterLab</span>, 
@@ -96,7 +96,7 @@ const Projects = () => {
                             Project #2
                         </div>
                         <h3 className="flex flex-col text-2xl font-bold">Computer Science - Portfolio Website<span className="text-textTeal text-xl"> Application Development</span></h3>
-                        <p className="bg-bodyColor text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
+                        <p className="bg-bodyColor text-textDark text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
                         I created this website using
                         <span className="text-textTeal"> React</span>,
                         <span className="text-textTeal"> Next.js</span>, 
