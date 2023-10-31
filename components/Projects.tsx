@@ -57,7 +57,7 @@ const Projects = () => {
                                 prediction accuracy and add other professional sports to predict final outcomes for.
                             </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 
-                        justify-between text-textDark ">
+                        justify-between text-textLight">
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">Python</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">JupyterLab</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">TypeScript</li>
@@ -110,7 +110,7 @@ const Projects = () => {
                         applications integrated with my other work.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 
-                        justify-between text-textDark ">
+                        justify-between text-textLight">
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">React</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">Tailwind CSS</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">Next.js</li>
@@ -153,7 +153,7 @@ const Projects = () => {
                             Project #3
                         </p>
                         <h3 className="flex flex-col text-2xl font-bold">NBA OKC Project<span className="text-textTeal text-xl"> Machine Learning</span></h3>
-                            <p className="bg-bodyColor text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
+                            <p className="bg-bodyColor text-textDark text-sm md:text-base p-2 xl:-mr-5 md:p-6 rounded-md">
                                 This project was given to me by the NBA team, Oklahoma City Thunder. To successfully complete this machine learning project, I utilized my knowledge of 
                                 <span className="text-textTeal"> Python</span>, 
                                 <span className="text-textTeal"> JupyterLab</span>, 
@@ -163,7 +163,7 @@ const Projects = () => {
                                 to complete highly complex tasks prior to a given deadline.
                             </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 
-                        justify-between text-textDark ">
+                        justify-between text-textLight">
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">Python</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">JupyterLab</li>
                             <li className="hover:text-textTeal cursor-pointer duration-300 ">Pandas</li>
