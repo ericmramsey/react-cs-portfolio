@@ -36,7 +36,7 @@ module.exports = {
         textTeal: "#8FBCBB",
         textLight: "#ECEFF4",
         textDark: "#D8DEE9",
-        hoverColor: "rgba(143, 188, 187, 1)",
+        hoverColor: "rgba(143, 188, 187)",
       },
     },
   },
