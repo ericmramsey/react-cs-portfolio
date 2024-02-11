@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SectionTitle from './SectionTitle';
+import CFCU from "./Works/CFCU";
 import BorgWarner from './Works/BorgWarner';
 import TechForGood from './Works/TechForGood';
 import CorningInc from './Works/CorningInc';
@@ -7,30 +8,42 @@ import Certifications from "./Works/Certifications";
 import Link from "next/link";
 
 const Experience = () => {
-    const [workBorgWarner, setWorkBorgWarner] = useState(true);
+    const [workCFCU, setWorkCFCU] = useState(true);
+    const [workBorgWarner, setWorkBorgWarner] = useState(false);
     const [workTeachForGood, setWorkTechForGood] = useState(false);
     const [workCorningInc, setWorkCorningInc] = useState(false);
     const [workCertifications, setWorkCertifications] = useState(false);
     
+    const handleCFCU = () => {
+      setWorkCFCU(true);
+      setWorkBorgWarner(false);
+      setWorkTechForGood(false);
+      setWorkCorningInc(false);
+      setWorkCertifications(false);
+    };
     const handleBorgWarner = () => {
+      setWorkCFCU(false);
       setWorkBorgWarner(true);
       setWorkTechForGood(false);
       setWorkCorningInc(false);
       setWorkCertifications(false);
     };
     const handleTechForGood = () => {
+      setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(true);
       setWorkCorningInc(false);
       setWorkCertifications(false);
     };
     const handleCorningInc = () => {
+      setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
       setWorkCorningInc(true);
       setWorkCertifications(false);
     };
     const handleCertifications = () => {
+      setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
       setWorkCorningInc(false);
@@ -45,6 +58,12 @@ const Experience = () => {
       <SectionTitle title="Experience" titleNum="2." />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16 mb-20 sm:mb-0">
         <ul className="md:w-36 flex flex-col">
+            <li 
+              onClick={ handleCFCU }
+              className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
+                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                CFCU
+            </li>
             <li 
               onClick={ handleBorgWarner }
               className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
@@ -70,6 +89,7 @@ const Experience = () => {
                 Certifications
             </li>
         </ul>
+        {workCFCU && <CFCU />}
         {workBorgWarner && <BorgWarner />}
         {workTeachForGood && <TechForGood />}
         {workCorningInc && <CorningInc />}
