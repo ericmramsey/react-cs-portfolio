@@ -61,31 +61,31 @@ const Experience = () => {
             <li 
               onClick={ handleCFCU }
               className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 CFCU
             </li>
             <li 
               onClick={ handleBorgWarner }
               className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 BorgWarner Inc.
             </li>
             <li
               onClick={ handleTechForGood } 
               className={`${workTeachForGood ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Tech For Good Inc.
             </li>
             <li 
               onClick={ handleCorningInc }
               className={`${workCorningInc ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Corning Incorporated
             </li>
             <li 
               onClick={ handleCertifications }
               className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-hoverColor text-textDark"} 
-                border-l-2 hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Certifications
             </li>
         </ul>
