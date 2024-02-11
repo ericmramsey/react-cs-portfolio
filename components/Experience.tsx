@@ -60,31 +60,31 @@ const Experience = () => {
         <ul className="md:w-36 flex flex-col">
             <li 
               onClick={ handleCFCU }
-              className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-textDark text-textDark"} 
+              className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 CFCU
             </li>
             <li 
               onClick={ handleBorgWarner }
-              className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-textDark text-textDark"} 
+              className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 BorgWarner Inc.
             </li>
             <li
               onClick={ handleTechForGood } 
-              className={`${workTeachForGood ? "border-l-textTeal text-textTeal" : "border-l-textDark text-textDark"} 
+              className={`${workTeachForGood ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Tech For Good Inc.
             </li>
             <li 
               onClick={ handleCorningInc }
-              className={`${workCorningInc ? "border-l-textTeal text-textTeal" : "border-l-textDark text-textDark"} 
+              className={`${workCorningInc ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Corning Incorporated
             </li>
             <li 
               onClick={ handleCertifications }
-              className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-textDark text-textDark"} 
+              className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 Certifications
             </li>
