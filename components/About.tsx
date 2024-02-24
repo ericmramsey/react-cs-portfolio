@@ -44,7 +44,7 @@ const About = () => {
                 </p>
                 <p>
                     I'm currently studying <span className="text-textTeal">Computer Science </span> at 
-                    <span className="text-textTeal"> Louisiana State University - Alexandrea</span>,
+                    <span className="text-textTeal"> Louisiana State University</span>,
                     and will be graduating Spring 2024. While completing my CS degree, I've gained professional 
                     experience and continue to look for opportunities to improve my skillset or learn 
                     something new. I did this by seeking Co-Op and internship opportunities in the industry and 
