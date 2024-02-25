@@ -2,7 +2,11 @@ import React from 'react';
 import SectionTitle from './SectionTitle';
 import { AiFillThunderbolt } from 'react-icons/ai';
 import { AiFillGithub } from "react-icons/ai";
+import { SiFlask } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
 import { SiPandas, SiPython } from 'react-icons/si';
+import { SiNumpy } from "react-icons/si";
 import { SiJavascript } from 'react-icons/si';
 import { SiTypescript } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
@@ -120,33 +124,33 @@ const About = () => {
                 </h2>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
-                        <FaReact />
+                        <SiScikitlearn />
                     </span>
                     Scikit-Learn
                 </li>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
-                        <FaReact />
+                        <SiTensorflow />
                     </span>
                     TensorFlow
                 </li>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
-                        <FaReact />
+                        <SiNumpy />
                     </span>
                     NumPy
+                </li>
+                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
+                    <span className="text-textTeal">
+                        <SiFlask />
+                    </span>
+                    Flask
                 </li>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
                         <FaReact />
                     </span>
                     React
-                </li>
-                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
-                    <span className="text-textTeal">
-                        <FaReact />
-                    </span>
-                    Flask
                 </li>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
