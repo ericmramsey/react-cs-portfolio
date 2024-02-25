@@ -24,38 +24,32 @@ const TechForGood = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Main project for this internship was Mission UpLink. This primary goal of this project was to assist in providing 
-                internet access to underdeveloped areas in countries that would benefit from this service. My team was tasked with 
-                developing an interactive map display that would assist in identifying deployed devices for team and potential investors.
+                Main Project for this internship was Mission UpLink. The goal of this project was to assist in providing internet access to underdeveloped 
+                areas in countries that would benefit from this service. My team was tasked with developing an interactive map interface that would assist in 
+                identifying deploy UpLink hardware devices for the organization and reference for potential investors.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required knowledge of Python, Pandas, GeoPy for the task of creating an interactive virtual map representing deployed Mission UpLink 
-                devices on a global scale. For implementing the application to the company open source website, utilizing JavaScript, HTML, and CSS was used 
-                to accomplish tasks set by the team lead for testing and deployment versions.
+                Required knowledge of Python, Pandas, GeoPy for the task of creating an interactive virtual map representing deployed Mission UpLink Devices 
+                on a global scale.  For implementing application to the company open-source website, required efficiency in tools such as React, JavaScript, HTML 
+                and CSS to accomplish tasks set by the team lead for testing and deployment versions.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Experienced the development and engineering lifecycle of the project and application, from conception, architecture definition, detailed design, 
-                scoping, planning, implementation, and testing. Also the integration and deployment testing of the application to be featured on the Tech For Good 
-                open source website.
+                Experienced the software application development and engineering lifecycle of the project, from planning phase, architecture definition, detailed design, 
+                scoping, implementation, testing, and maintenance stages. Engineering responsibilities also included the integration, deployment testing, and presentation 
+                of the application to be featured on the company open-source website.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Contributed to project development documentation, flowcharts, layouts, diagrams and clean, commented code. Utilized Git and Github for remote repository 
-                contributions and approvals of team lead requirements.
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Development Tools Used: Python, SQL, JavaScript, React, HTML, CSS.
+                Contributed to project development documentation, flowcharts, layouts, diagrams and contributed clean commented code. Utilized Git and GitHub for remote 
+                repository contributions and approvals of team lead requirements.
             </li>
         </ul>
     </motion.div>

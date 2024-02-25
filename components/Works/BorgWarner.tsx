@@ -24,30 +24,31 @@ const BorgWarner = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Responsible for assisting database management and migration project of 
-                employee information to the new service the organization needed implemented. 
-                Utilized Python and SQL knowledged to efficiently contribute to the team and project success.
+                Provided technical support to automation hardware, implementation of software integration and installation 
+                on company machines to meet production and department requirements.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Provided technical support, hardware and software integration solutions to meet the requirements 
-                of the departments being supported.
+                Assisted Business Applications department in company database migration project to the replacement service 
+                the organization required implemented.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Utilized knowledge of Python, Command-Line, Data Structures, and Object Oriented Programming to 
-                provide efficient solutions for tasks such as transferring data to production machine upgrades.
+                Required knowledge and efficiency in technology-based tools such as Python, Command-Line, SQL, Active Directory, 
+                UGK, Data Structures, OOP, SQL Server RU Scorecard Management, Azure, Troubleshooting, effective communication with 
+                team and supported clients, Windows operating systems and applications.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Completed the authorization and setup of company phones both for new hires and current 
-                employees which required use and knowledge of company portal and protocols for data transfer.
+                Completed the configuration of new employee user profiles, company devices such as phones or PCs, and attention to detail 
+                when allocating required access to necessary department directories containing confidential information and assisted in management 
+                of PC security compliance and tracking of devices.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
@@ -55,20 +56,6 @@ const BorgWarner = () => {
                 </span>
                 Remotely installed engineering software applications to client machines and communicated with 
                 required departments regarding the management and distribution of software licenses to authorized users.
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Completed the configuration of new hire user profiles, company devices, and allocated required access to 
-                necessary department directories using Azure and Active Directory.
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Assisted in SQL Server RU Scorecard management to ensure machines and devices operating on the organizations 
-                network were compliant with security protocols and requirements.
             </li>
         </ul>
     </motion.div>

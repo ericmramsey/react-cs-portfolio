@@ -24,30 +24,30 @@ const CFCU = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Primary project during this internship was the enterprise application uChoose, secondary was the automated 
-                teller system. This application was initiated shortly after my start date with the goal of developing and 
-                engineering an automation software and platform for credit union member reward points based on an established 
-                points system.
+                Primary project during this internship was uChoose API application used to calculate and set member bonus 
+                reward points based on established requirements set by the credit union board members.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Responsible for strategizing, planning, documenting and developing automated solutions to increase the efficiency of business operation and user tasks.
+                Secondary responsibilities included strategizing, planning, documenting and developing automated technical 
+                solutions or tasks to increase the efficiency of business operations and overall functionality of departments.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required advanced efficiency in Object Oriented Programming (OOP), Python, PowerShell scripting, data analysis, UML Diagram for process representation, 
-                use case testing, attention to detail, troubleshooting, debugging, and the ability to communicate effectively with other department leads.
+                Required advanced efficiency in Object Oriented Programming (OOP), Python, PowerShell scripting, data analysis, 
+                UML Diagram for process representation, algorithm implementation, use case testing, attention to detail, troubleshooting, 
+                debugging, and the ability to communicate effectively with department leads.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required the ability to meet strict deadlines, effectively migrate confidential data without loss or negative impact on user information, understanding 
-                of automation processes and software, and the ability to plan, develop, and execute projects throughout the development life cycle.
+                Required the ability to meet strict deadlines, effectively manage confidential member data without loss or negative impact 
+                on user experience, understanding of automation processes and software functionality. 
             </li>
         </ul>
     </motion.div>
