@@ -122,7 +122,31 @@ const About = () => {
                     <span className="text-textTeal">
                         <FaReact />
                     </span>
+                    Scikit-Learn
+                </li>
+                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
+                    <span className="text-textTeal">
+                        <FaReact />
+                    </span>
+                    TensorFlow
+                </li>
+                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
+                    <span className="text-textTeal">
+                        <FaReact />
+                    </span>
+                    NumPy
+                </li>
+                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
+                    <span className="text-textTeal">
+                        <FaReact />
+                    </span>
                     React
+                </li>
+                <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
+                    <span className="text-textTeal">
+                        <FaReact />
+                    </span>
+                    Flask
                 </li>
                 <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                     <span className="text-textTeal">
