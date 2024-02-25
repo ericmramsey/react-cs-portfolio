@@ -4,6 +4,7 @@ import CFCU from "./Works/CFCU";
 import BorgWarner from './Works/BorgWarner';
 import TechForGood from './Works/TechForGood';
 import CorningInc from './Works/CorningInc';
+import Education from "./Works/Education";
 import Certifications from "./Works/Certifications";
 import Link from "next/link";
 
@@ -12,6 +13,7 @@ const Experience = () => {
     const [workBorgWarner, setWorkBorgWarner] = useState(false);
     const [workTeachForGood, setWorkTechForGood] = useState(false);
     const [workCorningInc, setWorkCorningInc] = useState(false);
+    const [workEducation, setWorkEducation] = useState(false);
     const [workCertifications, setWorkCertifications] = useState(false);
     
     const handleCFCU = () => {
@@ -19,6 +21,7 @@ const Experience = () => {
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
       setWorkCorningInc(false);
+      setWorkEducation(false);
       setWorkCertifications(false);
     };
     const handleBorgWarner = () => {
@@ -26,6 +29,7 @@ const Experience = () => {
       setWorkBorgWarner(true);
       setWorkTechForGood(false);
       setWorkCorningInc(false);
+      setWorkEducation(false);
       setWorkCertifications(false);
     };
     const handleTechForGood = () => {
@@ -33,6 +37,7 @@ const Experience = () => {
       setWorkBorgWarner(false);
       setWorkTechForGood(true);
       setWorkCorningInc(false);
+      setWorkEducation(false);
       setWorkCertifications(false);
     };
     const handleCorningInc = () => {
@@ -40,6 +45,15 @@ const Experience = () => {
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
       setWorkCorningInc(true);
+      setWorkEducation(false);
+      setWorkCertifications(false);
+    };
+    const handleEducation = () => {
+      setWorkCFCU(false);
+      setWorkBorgWarner(false);
+      setWorkTechForGood(false);
+      setWorkCorningInc(false);
+      setWorkEducation(true);
       setWorkCertifications(false);
     };
     const handleCertifications = () => {
@@ -47,8 +61,9 @@ const Experience = () => {
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
       setWorkCorningInc(false);
+      setWorkEducation(false);
       setWorkCertifications(true);
-    }
+    };
 
   return (
     <section 
@@ -83,6 +98,12 @@ const Experience = () => {
                 Corning Incorporated
             </li>
             <li 
+              onClick={ handleEducation }
+              className={`${workEducation ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                Education
+            </li>
+            <li 
               onClick={ handleCertifications }
               className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
@@ -93,6 +114,7 @@ const Experience = () => {
         {workBorgWarner && <BorgWarner />}
         {workTeachForGood && <TechForGood />}
         {workCorningInc && <CorningInc />}
+        {workEducation && <Education />}
         {workCertifications && <Certifications />}
       </div>
     </section>
