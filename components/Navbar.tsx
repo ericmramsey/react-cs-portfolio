@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiMinutemailer } from "react-icons/si";
+import { SiGithub, SiMinutemailer, SiLeetcode } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 
 const Navbar = () => {
@@ -249,7 +249,7 @@ const Navbar = () => {
                                         <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
                                                 items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                 hover:-translate-y-2 transition-all duration-300">
-                                                <AiFillGithub />
+                                                <SiGithub />
                                             </span>
                                     </motion.a>
                                     <motion.a 
@@ -262,6 +262,18 @@ const Navbar = () => {
                                                     hover:-translate-y-2 transition-all duration-300">
                                                 <FaLinkedinIn />
                                             </span>
+                                    </motion.a>
+                                    <motion.a 
+                                        initial={{ y: 20, opacity: 0 }} 
+                                        animate={{ y: 0, opacity: 1 }} 
+                                        transition={{ delay: 1, ease: "easeIn" }}
+                                        href="https://leetcode.com/ericramsey/" target="_blank" rel='opener noreferrer'>
+                                        <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+                                        items-center justify-center hover:text-Green cursor-pointer
+                                        hover:-translate-y-2 transition-all duration-300"
+                                    >
+                                        <SiLeetcode />
+                                        </span>
                                     </motion.a>
                                     <motion.a 
                                         initial={{ y: 20, opacity: 0 }} 
