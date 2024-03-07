@@ -58,7 +58,7 @@ const About = () => {
                     Here are some of the technologies that I've worked with or have experience using:
                 </p>
             </div>
-            <div className="w-full lg1:w-1/3 sm:w-1/2 sm:mx-5 h-88 relative group sm:mb-16">
+            <div className="w-full lg1:w-1/3 sm:w-3/5 sm:mx-5 h-88 relative group sm:mb-16">
                 <div className="absolute w-full h-88 -left-6 -top-6 rounded-lg">
                     <div className="w-full h-full relative z-20 flex pl-6 lg1:pl-0">
                         <Image 
