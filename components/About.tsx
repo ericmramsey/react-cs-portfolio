@@ -58,7 +58,7 @@ const About = () => {
                     Here are some of the technologies that I've worked with or have experience using:
                 </p>
             </div>
-            <div className="w-full lg1:w-1/3 sm:w-full h-88 relative group sm:mb-16">
+            <div className="w-full lg1:w-1/3 sm:w-1/2 sm:mx-5 h-88 relative group sm:mb-16">
                 <div className="absolute w-full h-88 -left-6 -top-6 rounded-lg">
                     <div className="w-full h-full relative z-20 flex pl-6 lg1:pl-0">
                         <Image 
@@ -66,7 +66,7 @@ const About = () => {
                             src={profileImg}
                             alt="profileImg"
                         />
-                            <div className="lg1:inline-block absolute w-full h-full bg-textDark/20
+                            <div className="lg1:inline-block sm:left-3 absolute w-full h-full bg-textDark/20
                             rounded-md top-0 left-0 group-hover:backdrop-grayscale duration-300">
                             </div>
                     </div>
@@ -80,7 +80,7 @@ const About = () => {
             </div>
         </div>
         {/* skills grid */}
-        <div className="grid grid-cols-4 mt-0 py-5">
+        <div className="grid grid-cols-4 mt-0 py-5 sm:hidden">
             {/* programming languages col */}
             <ul className="max-w-[450px] text-lg font-bodyFont mt-2">
                 <h2 className="font-titleFont mb-5">

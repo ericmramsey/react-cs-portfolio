@@ -68,7 +68,7 @@ const Experience = () => {
   return (
     <section 
       id="experience"
-      className="max-w-containerxs mx-auto py-44 lg1:py-36 px-4 mb-60"
+      className="max-w-containerxs mx-auto py-44 lg1:py-36 px-4 mt-20 mb-60"
     >
       <SectionTitle title="Experience" titleNum="2." />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16 mb-20 sm:mb-0">
