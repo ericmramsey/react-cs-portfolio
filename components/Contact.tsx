@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section 
         id="contact"
-        className="max-w-contentContainer mx-auto py-10 x1:py-32 flex flex-col gap-8 mb-44"
+        className="max-w-contentContainer mx-auto py-10 x1:py-32 flex flex-col gap-8 mb-44 sm:mt-8"
     >
     <SectionTitle title="Contact" titleNum="4."/>
         <div className="max-w-contentContainer mx-auto py-32 md1:py-10 flex flex-col
