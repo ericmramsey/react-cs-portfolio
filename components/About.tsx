@@ -98,13 +98,13 @@ const About = () => {
                         <span className="text-textTeal">
                             <SiCoursera />
                         </span>
-                        C Language
+                        C
                     </li>
                     <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                         <span className="text-textTeal">
                             <SiCplusplus />
                         </span>
-                        C++ Language
+                        C++
                     </li>
                     <li className="flex items-center gap-2 text-sm font-bodyFont py-2">
                         <span className="text-textTeal">
