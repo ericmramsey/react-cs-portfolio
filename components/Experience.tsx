@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SectionTitle from './SectionTitle';
+import Micatu from "./Works/Micatu";
 import CFCU from "./Works/CFCU";
 import BorgWarner from './Works/BorgWarner';
 import TechForGood from './Works/TechForGood';
@@ -9,14 +10,25 @@ import Certifications from "./Works/Certifications";
 import Link from "next/link";
 
 const Experience = () => {
-    const [workCFCU, setWorkCFCU] = useState(true);
+    const [workMicatu, setWorkMicatu] = useState(true);
+    const [workCFCU, setWorkCFCU] = useState(false);
     const [workBorgWarner, setWorkBorgWarner] = useState(false);
     const [workTeachForGood, setWorkTechForGood] = useState(false);
     const [workCorningInc, setWorkCorningInc] = useState(false);
     const [workEducation, setWorkEducation] = useState(false);
     const [workCertifications, setWorkCertifications] = useState(false);
     
+    const handleMicatu = () => {
+      setWorkMicatu(true);
+      setWorkCFCU(false);
+      setWorkBorgWarner(false);
+      setWorkTechForGood(false);
+      setWorkCorningInc(false);
+      setWorkEducation(false);
+      setWorkCertifications(false);
+    };
     const handleCFCU = () => {
+      setWorkMicatu(false);
       setWorkCFCU(true);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
@@ -25,6 +37,7 @@ const Experience = () => {
       setWorkCertifications(false);
     };
     const handleBorgWarner = () => {
+      setWorkMicatu(false);
       setWorkCFCU(false);
       setWorkBorgWarner(true);
       setWorkTechForGood(false);
@@ -33,6 +46,7 @@ const Experience = () => {
       setWorkCertifications(false);
     };
     const handleTechForGood = () => {
+      setWorkMicatu(false);
       setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(true);
@@ -41,6 +55,7 @@ const Experience = () => {
       setWorkCertifications(false);
     };
     const handleCorningInc = () => {
+      setWorkMicatu(false);
       setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
@@ -49,6 +64,7 @@ const Experience = () => {
       setWorkCertifications(false);
     };
     const handleEducation = () => {
+      setWorkMicatu(false);
       setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
@@ -57,6 +73,7 @@ const Experience = () => {
       setWorkCertifications(false);
     };
     const handleCertifications = () => {
+      setWorkMicatu(false);
       setWorkCFCU(false);
       setWorkBorgWarner(false);
       setWorkTechForGood(false);
@@ -73,6 +90,12 @@ const Experience = () => {
       <SectionTitle title="Experience" titleNum="2." />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16 mb-20 sm:mb-0">
         <ul className="md:w-36 flex flex-col">
+            <li 
+              onClick={ handleMicatu }
+              className={`${workMicatu ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
+                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                Micatu Inc.
+            </li>
             <li 
               onClick={ handleCFCU }
               className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
@@ -110,6 +133,7 @@ const Experience = () => {
                 Certifications
             </li>
         </ul>
+        {workMicatu && <Micatu />}
         {workCFCU && <CFCU />}
         {workBorgWarner && <BorgWarner />}
         {workTeachForGood && <TechForGood />}
