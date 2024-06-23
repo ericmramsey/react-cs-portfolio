@@ -12,9 +12,8 @@ const Contact = () => {
         gap-4 lg1:gap-8 md1:px-10 x1:px-4 mb-44 mt-16 justify-center items-center">
             <h2 className="font-titleFont text-5xl font-semibold">Get In Touch</h2>
             <p className="max-w-[600px] text-center text-textDark">
-                I'm currently seeking internship, Co-Op, or entry-level opportunities and I'm available 
-                for full time employment. I'm interested in onsite, hybrid, or remote positions and have
-                professional experience in multiple CS industries.
+                I'm currently I'm available for full time employment. I'm interested in onsite, hybrid, or remote positions and have
+                professional experience in a variety of industries.
             </p>
             <a href="mailto:eric.m.ramsey@outlook.com">
                 {" "}
