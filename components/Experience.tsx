@@ -94,7 +94,7 @@ const Experience = () => {
               onClick={ handleMicatu }
               className={`${workMicatu ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                Micatu Inc.
+                MICATU INC.
             </li>
             <li 
               onClick={ handleCFCU }
@@ -106,31 +106,31 @@ const Experience = () => {
               onClick={ handleBorgWarner }
               className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                BorgWarner Inc.
+                BORGWARNER INC.
             </li>
             <li
               onClick={ handleTechForGood } 
               className={`${workTeachForGood ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                Tech For Good Inc.
+                TECH FOR GOOD INC.
             </li>
             <li 
               onClick={ handleCorningInc }
               className={`${workCorningInc ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                Corning Incorporated
+                CORNING INCORPORATED
             </li>
             <li 
               onClick={ handleEducation }
               className={`${workEducation ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                Education
+                EDUCATION
             </li>
             <li 
               onClick={ handleCertifications }
               className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
                 border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                Certifications
+                CERTIFICATIONS
             </li>
         </ul>
         {workMicatu && <Micatu />}
