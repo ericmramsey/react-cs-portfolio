@@ -11,9 +11,9 @@ const CFCU = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Robotic Process Automation Engineer Intern
+            ROBOTIC PROCESS AUTOMATION ENGINEER INTERN
             <span className="text-textTeal tracking-wide">
-            CFCU Community Credit Union
+            CFCU COMMUNITY CREDIT UNION
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

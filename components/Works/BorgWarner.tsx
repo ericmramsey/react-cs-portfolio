@@ -11,9 +11,9 @@ const BorgWarner = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Information Technology Co-Op 
+            INFORMATION TECHNOLOGY CO-OP - 
             <span className="text-textTeal tracking-wide">
-            BorgWarner Inc.
+            BORGWARNER INC.
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

@@ -11,9 +11,9 @@ const CorningInc = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Audio-Visual Technician II 
+            AUDIO-VISUAL TECHNICIAN II - 
             <span className="text-textTeal tracking-wide">
-            Corning Incorporated
+            CORNING INC.
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

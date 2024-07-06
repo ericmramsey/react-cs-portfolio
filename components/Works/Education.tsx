@@ -11,9 +11,9 @@ const Education = () => {
         className="w-full">
         {/* Louisiana State University */}
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Computer Science B.S.
+            COMPUTER SCIENCE B.S. 
             <span className="text-textTeal tracking-wide">
-            Louisiana State University
+            LOUISIANA STATE UNIVERSITY
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">
@@ -74,9 +74,9 @@ const Education = () => {
         </ul>
         {/* Finger Lakes Community College */}
         <h3 className="mt-10 flex gap-1 font-medium text-2lg font-titleFont">
-            Computer Science A.S.
+            COMPUTER SCIENCE A.S. 
             <span className="text-textTeal tracking-wide">
-            Finger Lakes Community College
+            FINGER LAKES COMMUNITY COLLEGE
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

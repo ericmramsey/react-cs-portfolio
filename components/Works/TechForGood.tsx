@@ -11,9 +11,9 @@ const TechForGood = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Software Engineer Intern 
+            SOFTWARE ENGINEER INTERN - 
             <span className="text-textTeal tracking-wide">
-            Tech For Good Inc.
+            TECH FOR GOOD INC.
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

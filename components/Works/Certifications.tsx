@@ -11,9 +11,9 @@ const Certifications = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Professional
+            PROFESSIONAL
             <span className="text-textTeal tracking-wide">
-            Certifications
+            CERTIFICATIONS
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">

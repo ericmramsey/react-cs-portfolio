@@ -11,9 +11,9 @@ const Micatu = () => {
         className="w-full">
 
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            Software Engineer
+            SOFTWARE ENGINEER - 
             <span className="text-textTeal tracking-wide">
-            Micatu Inc.
+            MICATU INC.
             </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">
