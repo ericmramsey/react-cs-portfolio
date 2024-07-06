@@ -24,47 +24,41 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developer and Engineering experience using Python, C, C++, to provide solutions for multi-threaded firmware and systems, 
-                as well as associated software and embedded firmware architectures. 
+                Developer and Engineer Experience using Python, C, C++, to provide solutions 
+                for multi-threaded firmware systems and associated software or embedded firmware architecture. 
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Ability to implement analytical and mathematical functions into efficient and real time optimized code capable of sampling, 
-                data acquisition, time domain, frequency and FFT analyses. 
+                Ability to implement analytical and mathematical functions into efficient software engineering 
+                solutions capable of sampling, data acquisition, and ability to process high voltage or current readings.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required skills necessary for testing and troubleshooting of software and firmware in prototype to production systems and environments. 
+                Required skills necessary for testing and troubleshooting software, applications, and firmware implementations. 
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developed new company applications to increase the efficiency of company departments, while also updating, refactoring, and maintaining 
-                legacy applications while preserving the products functionality when deployed.
+                Developed new company applications that increased the efficiency of company departments while also updating, 
+                refactoring, and maintaining legacy applications while preserving the products functionality when deployed.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Ability to comprehend and contribute to complex systems containing combined electronics and photonics components as well as quickly learning innovative technologies. 
+                Implemented high quality code by using comprehensive software/firmware verification testing in an Agile environment. 
+                This required adaptability, creativity, critical thinking, and problem-solving skills to meet strict deadlines.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Implement quality code with comprehensive software/firmware verification testing in an Agile environment which required adaptability, creativity, critical thinking, 
-                and problem solving while meeting strict deadlines. 
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Code review with peer developers providing constructive feedback to ensure consistency and quality of code.  
+                Code review with peer developers providing constructive feedback to ensure consistency and quality of code.
             </li>
         </ul>
     </motion.div>
