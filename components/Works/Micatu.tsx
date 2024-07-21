@@ -24,7 +24,7 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developer and Engineer Experience using Python, C, C++, to provide solutions 
+                Developed and Engineered software and data solutions  using Python, C, C++, 
                 for multi-threaded firmware systems and associated software or embedded firmware architecture. 
             </li>
             <li className="text-base flex gap-2 text-textDark">
