@@ -15,7 +15,7 @@ const LeftSide = () => {
     text-textLight">
       <div className="flex flex-col gap-4">
         <a href="https://github.com/ericmramsey" target="_blank" rel='opener noreferrer'>
-          <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+          <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
@@ -23,7 +23,7 @@ const LeftSide = () => {
           </span>
         </a>
         <a href="https://www.linkedin.com/in/ericramsey/" target="_blank" rel='opener noreferrer'>
-          <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+          <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
@@ -31,7 +31,7 @@ const LeftSide = () => {
           </span>
         </a>
         <a href="https://leetcode.com/ericramsey/" target="_blank" rel='opener noreferrer'>
-          <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+          <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
@@ -39,7 +39,7 @@ const LeftSide = () => {
           </span>
         </a>
         <a href="mailto:eric.m.ramsey@outlook.com">
-          <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+          <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
           >
@@ -49,7 +49,7 @@ const LeftSide = () => {
         <a href="https://music.apple.com/us/playlist/code/pl.u-V9D7modIkX6DX" 
           target="_blank" 
           rel='opener noreferrer'>
-          <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
+          <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
             items-center justify-center hover:text-Green cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
           >

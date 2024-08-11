@@ -121,8 +121,8 @@ const Navbar = () => {
                         initial={{ y: -10, opacity:0 }} 
                         animate={{ y: 0, opacity:1 }} 
                         transition={{ duration: 0.7 }}
-                        className="px-4 py-2 rounded-md text-textTeal text-[13px] border border-textTeal
-                        hover:bg-hoverColor duration-300">
+                        className="px-4 py-2 rounded-md text-textDark text-[13px] border border-textDark
+                        hover:bg-textTeal duration-300">
                         Resume
                         </motion.button>
                     </a>
