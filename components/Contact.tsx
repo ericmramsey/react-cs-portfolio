@@ -19,8 +19,8 @@ const Contact = () => {
             </p>
             <a href="mailto:eric.m.ramsey@outlook.com">
                 {" "}
-                <button className="w-40 h-14 border border-textTeal mt-6 font-titleFont text-sm
-                text-textTeal tracking-wider rounded-md hover:bg-hoverColor duration-300">
+                <button className="w-40 h-14 border border-textLight mt-6 font-titleFont text-sm
+                text-textLight tracking-wider rounded-md hover:text-textTeal hover:border-textTeal duration-300">
                     Contact Me
                 </button>
             </a>

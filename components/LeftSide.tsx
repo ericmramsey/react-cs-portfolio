@@ -16,7 +16,7 @@ const LeftSide = () => {
       <div className="flex flex-col gap-4">
         <a href="https://github.com/ericmramsey" target="_blank" rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
-            items-center justify-center hover:text-Green cursor-pointer
+            items-center justify-center hover:text-textTeal hover:border-textTeal cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
             <SiGithub />
@@ -24,7 +24,7 @@ const LeftSide = () => {
         </a>
         <a href="https://www.linkedin.com/in/ericramsey/" target="_blank" rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
-            items-center justify-center hover:text-Green cursor-pointer
+            items-center justify-center hover:text-textTeal hover:border-textTeal cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
             <FaLinkedinIn />
@@ -32,7 +32,7 @@ const LeftSide = () => {
         </a>
         <a href="https://leetcode.com/ericramsey/" target="_blank" rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
-            items-center justify-center hover:text-Green cursor-pointer
+            items-center justify-center hover:text-textTeal hover:border-textTeal cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
         >
             <SiLeetcode />
@@ -40,7 +40,7 @@ const LeftSide = () => {
         </a>
         <a href="mailto:eric.m.ramsey@outlook.com">
           <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
-            items-center justify-center hover:text-Green cursor-pointer
+            items-center justify-center hover:text-textTeal hover:border-textTeal cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
           >
             <SiMinutemailer />
@@ -50,7 +50,7 @@ const LeftSide = () => {
           target="_blank" 
           rel='opener noreferrer'>
           <span className="w-10 h-10 text-x1 bg-bodyColor border-solid border-2 border-textLight rounded-full inline-flex
-            items-center justify-center hover:text-Green cursor-pointer
+            items-center justify-center hover:text-textTeal hover:border-textTeal cursor-pointer
             hover:-translate-y-2 transition-all duration-300"
           >
             <SiMusicbrainz />

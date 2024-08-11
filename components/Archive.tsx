@@ -37,126 +37,123 @@ const Archive = () => {
             </div>
             { showMore && (
                 <>
-                        <h3 className="absolute flex items-center mx-10 font-medium text-textLight">
-                            <b>Coming Soon </b>. Earlier projects on Github profile.
-                        </h3>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 4"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 5"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 6"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 7"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 8"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 9"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 10"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 11"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.1 }}
-                            className="blur-sm"
-                        >
-                            <ArchiveCard 
-                                title={"Project 12"} 
-                                descript={""} 
-                                listItem={["Python", "SQL", "React"]}
-                                link={""} 
-                            />
-                        </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 4"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 5"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 6"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 7"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 8"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 9"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 10"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 11"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.1 }}
+                        className=""
+                    >
+                        <ArchiveCard 
+                            title={"Project 12"} 
+                            descript={""} 
+                            listItem={["Python", "SQL", "React"]}
+                            link={""} 
+                        />
+                    </motion.div>
                 </>
             )}
         </div>
