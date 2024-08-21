@@ -93,43 +93,43 @@ const Experience = () => {
             <li 
               onClick={ handleMicatu }
               className={`${workMicatu ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 MICATU INC.
             </li>
             <li 
               onClick={ handleCFCU }
               className={`${workCFCU ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 CFCU
             </li>
             <li 
               onClick={ handleBorgWarner }
               className={`${workBorgWarner ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 BORGWARNER INC.
             </li>
             <li
               onClick={ handleTechForGood } 
               className={`${workTeachForGood ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 TECH FOR GOOD INC.
             </li>
             <li 
               onClick={ handleCorningInc }
               className={`${workCorningInc ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 CORNING INCORPORATED
             </li>
             <li 
               onClick={ handleEducation }
               className={`${workEducation ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-textTeal hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 EDUCATION
             </li>
             <li 
               onClick={ handleCertifications }
               className={`${workCertifications ? "border-l-textTeal text-textTeal" : "border-l-gray-700 text-textDark"} 
-                border-l-2 hover:bg-hoverColor py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                border-l-2 hover:bg-hoverColor hover:text-textDark py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                 CERTIFICATIONS
             </li>
         </ul>
