@@ -24,7 +24,7 @@ const Projects = () => {
 
    return (
     <section id="projects" 
-             className="max-w-container mx-auto lg1:px-20 lg1:py-32 py-10 top-0 gap-8 mt-20"
+             className="max-w-containerPrj mx-auto lg1:px-20 lg1:py-32 py-10 top-0 gap-8 mt-20"
     >
         <SectionTitle title="Projects" titleNum="3." />
         <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">

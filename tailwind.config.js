@@ -10,6 +10,8 @@ module.exports = {
     maxWidth: {
       container: "1440px",
       contentContainer: "1140px",
+      containerExp: "945px",
+      containerPrj: "1300px",
       containerSmall: "1024px",
       containerxs: "768px",
     },
