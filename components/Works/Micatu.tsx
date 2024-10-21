@@ -24,41 +24,41 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developed and Engineered software and data solutions  using Python, C, C++, 
-                for multi-threaded firmware systems and associated software or embedded firmware architecture. 
+                Developed and maintained legacy applications, while also designing and implementing new software solutions using Python. 
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Ability to implement analytical and mathematical functions into efficient software engineering 
-                solutions capable of sampling, data acquisition, and ability to process high voltage or current readings.
+                Assisted in the design, development and testing of embedded firmware using C, and C++.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required skills necessary for testing and troubleshooting software, applications, and firmware implementations. 
+                Designed and developed Python simulations that assisted in analyzing performance of 
+                firmware upgrade builds to mitigate potential issues or degradation prior to deploying to live test systems.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developed new company applications that increased the efficiency of company departments while also updating, 
-                refactoring, and maintaining legacy applications while preserving the products functionality when deployed.
+                Performed data analysis and visualization using Python to assist in ensuring accurate performance of products 
+                deployed at customer power grid locations.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Implemented high quality code by using comprehensive software/firmware verification testing in an Agile environment. 
-                This required adaptability, creativity, critical thinking, and problem-solving skills to meet strict deadlines.
+                Developed and executed test plans and regression testing determining if firmware upgrade release builds were 
+                performing successfully, and if they impacted any other system components negatively.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Code review with peer developers providing constructive feedback to ensure consistency and quality of code.
+                Maintained responsibilities and remained efficient in a fast-paced startup environment using scrum methodology, 
+                while staying current with new technologies, and programming practices.
             </li>
         </ul>
     </motion.div>
