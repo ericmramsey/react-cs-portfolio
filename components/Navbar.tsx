@@ -234,8 +234,8 @@ const Navbar = () => {
                                     initial={{ y: -10, opacity: 0 }} 
                                     animate={{ y: 0, opacity: 1 }} 
                                     transition={{ duration: 0.2, delay: 0.6, ease: "easeIn" }}
-                                    className="px-4 py-2 rounded-md text-textTeal text-[13px] border border-textTeal
-                                    hover:bg-hoverColor duration-300">
+                                    className="px-4 py-2 rounded-md text-textLight text-[13px] border border-textLight
+                                    hover:text-textTeal hover:border-textTeal duration-300">
                                     Resume
                                     </motion.button>
                                 </a>
@@ -246,7 +246,7 @@ const Navbar = () => {
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
                                         href="https://github.com/ericmramsey" target="_blank" rel='opener noreferrer'>
-                                        <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
+                                        <span className="w-10 h-10 text-x1 bg-bodyColor border-[1px] rounded-full inline-flex
                                                 items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                 hover:-translate-y-2 transition-all duration-300">
                                                 <SiGithub />
@@ -257,7 +257,7 @@ const Navbar = () => {
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
                                         href="https://www.linkedin.com/in/ericramsey/" target="_blank" rel='opener noreferrer'>
-                                            <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
+                                            <span className="w-10 h-10 text-x1 bg-bodyColor border-[1px] rounded-full inline-flex
                                                     items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                     hover:-translate-y-2 transition-all duration-300">
                                                 <FaLinkedinIn />
@@ -268,8 +268,8 @@ const Navbar = () => {
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
                                         href="https://leetcode.com/ericramsey/" target="_blank" rel='opener noreferrer'>
-                                        <span className="w-10 h-10 text-x1 bg-hoverColor rounded-full inline-flex
-                                        items-center justify-center hover:text-Green cursor-pointer
+                                        <span className="w-10 h-10 text-x1 bg-bodyColor border-[1px] rounded-full inline-flex
+                                        items-center justify-center hover:border-textTeal hover:text-textTeal hover:text-Green cursor-pointer
                                         hover:-translate-y-2 transition-all duration-300"
                                     >
                                         <SiLeetcode />
@@ -280,7 +280,7 @@ const Navbar = () => {
                                         animate={{ y: 0, opacity: 1 }} 
                                         transition={{ delay: 1, ease: "easeIn" }}
                                         href="mailto:eric.m.ramsey@outlook.com">
-                                        <span className="w-10 h-10 text-x1 bg-hoverColor border-[1px] rounded-full inline-flex
+                                        <span className="w-10 h-10 text-x1 bg-bodyColor border-[1px] rounded-full inline-flex
                                                 items-center justify-center hover:border-textTeal hover:text-textTeal cursor-pointer
                                                 hover:-translate-y-2 transition-all duration-300">
                                             <SiMinutemailer />
