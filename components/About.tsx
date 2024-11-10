@@ -37,9 +37,7 @@ const About = () => {
         >
         <SectionTitle title="About Me" titleNum="1." />
         <div className="flex flex-col lg1:flex-row gap-16">
-            <div className="w-full lg1:w-2/3 text-base text-textDark font-medium flex
-                    flex-col gap-4"
-            >
+            <div className="w-full lg1:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                 <p>
                     Before choosing to pursue this career path, I worked in the various audio-visual 
                     industries utilizing technology in professions like music recording engineering,

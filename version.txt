@@ -1,0 +1,12 @@
+VERSION = '1.0.0.0'
+VERSION_DESCRIPTION = '''Branch: main(11/10/2024)
+        • baseline for main'''
+
+'''
+### History ###
+
+VERSION = '1.0.0.0'
+VERSION_DESCRIPTION = '''Branch: main(11/10/2024)
+        • baseline for main'''
+
+'''

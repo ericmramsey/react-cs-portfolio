@@ -81,7 +81,7 @@ const Experience = () => {
       setWorkEducation(false);
       setWorkCertifications(true);
     };
-
+    
   return (
     <section 
       id="experience"

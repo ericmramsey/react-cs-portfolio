@@ -17,11 +17,11 @@ const Projects = () => {
     const [showProjectModal, setShowProjectModal] = useState(false);
     const [showProject2Modal, setShowProject2Modal] = useState(false);
     const [showProject3Modal, setShowProject3Modal] = useState(false);
-
+    
     const handleOnClose = () => setShowProjectModal(false);
     const handleOnClose2 = () => setShowProject2Modal(false);
     const handleOnClose3 = () => setShowProject3Modal(false);
-
+    
    return (
     <section id="projects" 
              className="max-w-containerPrj mx-auto lg1:px-20 lg1:py-32 py-10 top-0 gap-8 mt-20"

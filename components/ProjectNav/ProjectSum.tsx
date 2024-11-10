@@ -239,4 +239,4 @@ const ProjectSum = () => {
   )
 }
 
-export default ProjectSum
+export default ProjectSum;

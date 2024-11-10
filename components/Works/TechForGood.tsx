@@ -9,7 +9,7 @@ const TechForGood = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
         className="w-full">
-
+        
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
             SOFTWARE ENGINEER INTERN - 
             <span className="text-textTeal tracking-wide">

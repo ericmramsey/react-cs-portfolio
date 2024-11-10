@@ -7,11 +7,6 @@ import ProjectSum from './ProjectNav/ProjectSum';
 import ProjectImprove from './ProjectNav/ProjectImprove';
 
 const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    /*
-    const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-        
-    };
-    */
     const [projectSum, setProjectSum] = useState(true);
     const [projectDemo, setProjectDemo] = useState(false);
     const [projectImprove, setProjectImprove] = useState(false);
@@ -20,25 +15,25 @@ const ProjectModal = ({visible, onClose} : {visible:any, onClose:any}) => {
         setProjectSum(true);
         setProjectDemo(false);
         setProjectImprove(false);
-
+        
     };
     const handleProjectDemo = () => {
         setProjectSum(false);
         setProjectDemo(true);
         setProjectImprove(false);
-
+        
     };
-
+    
     const handleProjectImprove = () => {
         setProjectSum(false);
         setProjectDemo(false);
         setProjectImprove(true);
-
+        
     };
     if(!visible) { 
         return null; 
     };
-
+    
   return (
     <motion.div
         initial={{ opacity: 0 }}

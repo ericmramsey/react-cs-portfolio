@@ -6,30 +6,25 @@ import Project3Sum from './Project3Nav/Project3Sum';
 import Project3Improve from './Project3Nav/Project3Improve';
 
 const Project3Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    /*
-    const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-        
-    };
-    */
     const [project3Sum, setProject3Sum] = useState(true);
     const [project3Improve, setProject3Improve] = useState(false);
-
+    
     const handleProject3Sum = () => {
         
         setProject3Sum(true);
         setProject3Improve(false);
-
+        
     };
     const handleProject3Improve = () => {
-
+        
         setProject3Sum(false);
         setProject3Improve(true);
-
+        
     };
     if(!visible) { 
         return null;
     };
-
+    
   return (
     <motion.div
         initial={{ opacity: 0 }}

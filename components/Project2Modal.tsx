@@ -6,30 +6,25 @@ import Project2Sum from './Project2Nav/Project2Sum';
 import Project2Improve from './Project2Nav/Project2Improve';
 
 const Project2Modal = ({visible, onClose} : {visible:any, onClose:any}) => {
-    /*
-    const handleOnClose = (e:React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-        
-    };
-    */
     const [project2Sum, setProject2Sum] = useState(true);
     const [project2Improve, setProject2Improve] = useState(false);
-
+    
     const handleProject2Sum = () => {
         
         setProject2Sum(true);
         setProject2Improve(false);
-
+        
     };
     const handleProject2Improve = () => {
-
+        
         setProject2Sum(false);
         setProject2Improve(true);
-
+        
     };
     if(!visible) { 
         return null;
     };
-
+    
   return (
     <motion.div
         initial={{ opacity: 0 }}
