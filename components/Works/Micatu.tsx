@@ -24,7 +24,7 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                •	Developed and maintained production software applications, while also designing and implementing new software solutions using Python.
+                Developed and maintained production software applications, while also designing and implementing new software solutions using Python.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
