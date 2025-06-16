@@ -24,38 +24,31 @@ const BorgWarner = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Provided technical support to automation hardware, implementation of software integration and installation 
-                on company machines to meet production and department requirements.
+                Delivered technical support to automation systems, implementation of software integration and installation on company machines to meet production and department requirements.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Assisted Business Applications department in company database migration project to the replacement service 
-                the organization required implemented.
+                Assisted Business Applications department in company database migration project to the replacement service the organization required.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required knowledge and efficiency in technology-based tools such as Python, Command-Line, SQL, Active Directory, 
-                UGK, Data Structures, OOP, SQL Server RU Scorecard Management, Azure, Troubleshooting, effective communication with 
-                team and supported clients, Windows operating systems and applications.
+                Utilized knowledge in technology-based tools such as Python, Command-Line, SQL, Active Directory, Data Structures, OOP, SQL Server RU Scorecard Management, Azure, Troubleshooting.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Completed the configuration of new employee user profiles, company devices such as phones or PCs, and attention to detail 
-                when allocating required access to necessary department directories containing confidential information and assisted in management 
-                of PC security compliance and tracking of devices.
+                Effectively communicated with team and supported clients, Windows operating systems and applications.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Remotely installed engineering software applications to client machines and communicated with 
-                required departments regarding the management and distribution of software licenses to authorized users.
+                Completed the configuration of new employee user profiles, company devices such as phones or PCs.
             </li>
         </ul>
     </motion.div>

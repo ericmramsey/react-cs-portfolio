@@ -11,7 +11,7 @@ const CFCU = () => {
         className="w-full">
         
         <h3 className="flex gap-1 font-medium text-2lg font-titleFont">
-            ROBOTIC PROCESS AUTOMATION ENGINEER INTERN
+            ROBOTIC PROCESS AUTOMATION INTERN
             <span className="text-textTeal tracking-wide">
             CFCU COMMUNITY CREDIT UNION
             </span>
@@ -24,30 +24,25 @@ const CFCU = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Primary project during this internship was uChoose API application used to calculate and set member bonus 
-                reward points based on established requirements set by the credit union board members.
+                Primary project during this internship was uChoose API application used to calculate and set member bonus reward points based on established requirements set by the credit union board members.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Secondary responsibilities included strategizing, planning, documenting and developing automated technical 
-                solutions or tasks to increase the efficiency of business operations and overall functionality of departments.
+                Designed automated solutions to improve efficiency and data management across departments.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required advanced efficiency in Object Oriented Programming (OOP), Python, PowerShell scripting, data analysis, 
-                UML Diagram for process representation, algorithm implementation, use case testing, attention to detail, troubleshooting, 
-                debugging, and the ability to communicate effectively with department leads.
+                Utilized Python, PowerShell, UML Diagrams, data analysis, testing, and Object-Oriented Programming concepts to provide accurate technical solutions.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Required the ability to meet strict deadlines, effectively manage confidential member data without loss or negative impact 
-                on user experience, understanding of automation processes and software functionality. 
+                Maintained data security of member information, met strict delivery timelines, and coordinated with stakeholders effectively.
             </li>
         </ul>
     </motion.div>
