@@ -24,7 +24,19 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Developed and maintained production software applications, while also designing and implementing new software solutions using Python.
+                Developed and maintained production applications in Python; contributed to the design and implementations of new software solutions.
+            </li>
+            <li className="text-base flex gap-2 text-textDark">
+                <span className="text-textTeal mt-1">
+                    <AiFillThunderbolt />
+                </span>
+                Designed and developed simulations to evaluate firmware upgrade builds to prevent performance regressions.
+            </li>
+            <li className="text-base flex gap-2 text-textDark">
+                <span className="text-textTeal mt-1">
+                    <AiFillThunderbolt />
+                </span>
+                Analyzed and visualized data from customer power grid sites to assess the deployed products performance and system accuracy with high voltage measurements.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
@@ -36,29 +48,13 @@ const Micatu = () => {
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Designed and developed Python simulations that assisted in analyzing performance of 
-                firmware upgrade builds to mitigate potential issues or degradation prior to deploying to live test systems.
+                Executed test plans and regression testing to validate firmware performance, new feature implementations, and algorithm changes.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textTeal mt-1">
                     <AiFillThunderbolt />
                 </span>
-                Performed data analysis and visualization using Python to assist in ensuring accurate performance of products 
-                deployed at customer power grid locations.
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Developed and executed test plans and regression testing determining if firmware upgrade release builds were 
-                performing successfully, and if they impacted any other system components negatively.
-            </li>
-            <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textTeal mt-1">
-                    <AiFillThunderbolt />
-                </span>
-                Maintained responsibilities and remained efficient in a fast-paced startup environment using scrum methodology, 
-                while staying current with new technologies, and programming practices.
+                Worked with cross-functional teams in an Agile Scrum environment, quickly adapting to new technologies to meet evolving project needs.
             </li>
         </ul>
     </motion.div>

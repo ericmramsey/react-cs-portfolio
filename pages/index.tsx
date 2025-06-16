@@ -13,6 +13,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 {/*import Archive from "@/components/Archive";*/}
+import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
@@ -48,6 +49,7 @@ export default function Home() {
             <Experience />
             <Projects />
             {/*<Archive />*/}
+            <Archive />
             <Contact />
             <Footer />
           </div>

@@ -1,9 +1,15 @@
-VERSION = '1.1.0.0'
-VERSION_DESCRIPTION = '''Branch: main(03/25/2025)
-        • finalized version 1.1.0'''
+VERSION = '1.1.0.1'
+VERSION_DESCRIPTION = '''Branch: experience-sections-updates(06/16/2025)
+        • updated experience sections
+        • added new resume file''
 
 '''
 ### History ###
+
+VERSION = '1.1.0.1'
+VERSION_DESCRIPTION = '''Branch: experience-sections-updates(06/16/2025)
+        • updated experience sections
+        • added new resume file''
 
 VERSION = '1.1.0.0'
 VERSION_DESCRIPTION = '''Branch: main(03/25/2025)
