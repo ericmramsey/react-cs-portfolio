@@ -49,7 +49,6 @@ export default function Home() {
             <Experience />
             <Projects />
             {/*<Archive />*/}
-            <Archive />
             <Contact />
             <Footer />
           </div>
